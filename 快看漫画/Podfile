@@ -2,7 +2,7 @@
 # platform :ios, '9.0'
 
 target '快看漫画' do
-pod ’SDWebImage/WebP’
+pod ’SDWebImage’
 pod ‘MJRefresh’
 pod ‘AFNetworking’
 pod ‘Masonry’
@@ -10,5 +10,5 @@ pod ‘MJExtension’
 pod ‘JGProgressHUD’
 pod ‘UITableView+FDTemplateLayoutCell’
 pod ‘UMengAnalytics’
-
+pod 'iOS-WebP', '0.5'
 end
