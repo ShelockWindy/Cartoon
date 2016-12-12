@@ -7,71 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D142D731DFEED8B00854B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142D721DFEED8B00854B44 /* main.m */; };
-		1D142D761DFEED8B00854B44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142D751DFEED8B00854B44 /* AppDelegate.m */; };
-		1D142D791DFEED8B00854B44 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142D781DFEED8B00854B44 /* MasterViewController.m */; };
-		1D142D7C1DFEED8B00854B44 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142D7B1DFEED8B00854B44 /* DetailViewController.m */; };
-		1D142D7F1DFEED8B00854B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D142D7D1DFEED8B00854B44 /* Main.storyboard */; };
-		1D142D811DFEED8B00854B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D142D801DFEED8B00854B44 /* Assets.xcassets */; };
-		1D142D841DFEED8B00854B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D142D821DFEED8B00854B44 /* LaunchScreen.storyboard */; };
-		1D142D8F1DFEED8B00854B44 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142D8E1DFEED8B00854B44 /* ____Tests.m */; };
-		1D142D9A1DFEED8B00854B44 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142D991DFEED8B00854B44 /* ____UITests.m */; };
+		1D142DB51DFEEE0000854B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DB41DFEEE0000854B44 /* main.m */; };
+		1D142DB81DFEEE0000854B44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DB71DFEEE0000854B44 /* AppDelegate.m */; };
+		1D142DBB1DFEEE0000854B44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DBA1DFEEE0000854B44 /* ViewController.m */; };
+		1D142DBE1DFEEE0000854B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D142DBC1DFEEE0000854B44 /* Main.storyboard */; };
+		1D142DC01DFEEE0000854B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D142DBF1DFEEE0000854B44 /* Assets.xcassets */; };
+		1D142DC31DFEEE0000854B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D142DC11DFEEE0000854B44 /* LaunchScreen.storyboard */; };
+		1D142DCE1DFEEE0000854B44 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DCD1DFEEE0000854B44 /* ____Tests.m */; };
+		1D142DD91DFEEE0000854B44 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DD81DFEEE0000854B44 /* ____UITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1D142D8B1DFEED8B00854B44 /* PBXContainerItemProxy */ = {
+		1D142DCA1DFEEE0000854B44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1D142D661DFEED8B00854B44 /* Project object */;
+			containerPortal = 1D142DA81DFEEE0000854B44 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1D142D6D1DFEED8B00854B44;
+			remoteGlobalIDString = 1D142DAF1DFEEE0000854B44;
 			remoteInfo = "快看漫画";
 		};
-		1D142D961DFEED8B00854B44 /* PBXContainerItemProxy */ = {
+		1D142DD51DFEEE0000854B44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1D142D661DFEED8B00854B44 /* Project object */;
+			containerPortal = 1D142DA81DFEEE0000854B44 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1D142D6D1DFEED8B00854B44;
+			remoteGlobalIDString = 1D142DAF1DFEEE0000854B44;
 			remoteInfo = "快看漫画";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D142D6E1DFEED8B00854B44 /* 快看漫画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "快看漫画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D142D721DFEED8B00854B44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1D142D741DFEED8B00854B44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1D142D751DFEED8B00854B44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D142D771DFEED8B00854B44 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		1D142D781DFEED8B00854B44 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		1D142D7A1DFEED8B00854B44 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		1D142D7B1DFEED8B00854B44 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		1D142D7E1DFEED8B00854B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1D142D801DFEED8B00854B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1D142D831DFEED8B00854B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1D142D851DFEED8B00854B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D142D8A1DFEED8B00854B44 /* 快看漫画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "快看漫画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D142D8E1DFEED8B00854B44 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
-		1D142D901DFEED8B00854B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D142D951DFEED8B00854B44 /* 快看漫画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "快看漫画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D142D991DFEED8B00854B44 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
-		1D142D9B1DFEED8B00854B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D142DB01DFEEE0000854B44 /* 快看漫画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "快看漫画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D142DB41DFEEE0000854B44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D142DB61DFEEE0000854B44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D142DB71DFEEE0000854B44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D142DB91DFEEE0000854B44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1D142DBA1DFEEE0000854B44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1D142DBD1DFEEE0000854B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D142DBF1DFEEE0000854B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D142DC21DFEEE0000854B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D142DC41DFEEE0000854B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D142DC91DFEEE0000854B44 /* 快看漫画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "快看漫画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D142DCD1DFEEE0000854B44 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		1D142DCF1DFEEE0000854B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D142DD41DFEEE0000854B44 /* 快看漫画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "快看漫画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D142DD81DFEEE0000854B44 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		1D142DDA1DFEEE0000854B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D142D6B1DFEED8B00854B44 /* Frameworks */ = {
+		1D142DAD1DFEEE0000854B44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D142D871DFEED8B00854B44 /* Frameworks */ = {
+		1D142DC61DFEEE0000854B44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D142D921DFEED8B00854B44 /* Frameworks */ = {
+		1D142DD11DFEEE0000854B44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,66 +78,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D142D651DFEED8B00854B44 = {
+		1D142DA71DFEEE0000854B44 = {
 			isa = PBXGroup;
 			children = (
-				1D142D701DFEED8B00854B44 /* 快看漫画 */,
-				1D142D8D1DFEED8B00854B44 /* 快看漫画Tests */,
-				1D142D981DFEED8B00854B44 /* 快看漫画UITests */,
-				1D142D6F1DFEED8B00854B44 /* Products */,
+				1D142DB21DFEEE0000854B44 /* 快看漫画 */,
+				1D142DCC1DFEEE0000854B44 /* 快看漫画Tests */,
+				1D142DD71DFEEE0000854B44 /* 快看漫画UITests */,
+				1D142DB11DFEEE0000854B44 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1D142D6F1DFEED8B00854B44 /* Products */ = {
+		1D142DB11DFEEE0000854B44 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D142D6E1DFEED8B00854B44 /* 快看漫画.app */,
-				1D142D8A1DFEED8B00854B44 /* 快看漫画Tests.xctest */,
-				1D142D951DFEED8B00854B44 /* 快看漫画UITests.xctest */,
+				1D142DB01DFEEE0000854B44 /* 快看漫画.app */,
+				1D142DC91DFEEE0000854B44 /* 快看漫画Tests.xctest */,
+				1D142DD41DFEEE0000854B44 /* 快看漫画UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1D142D701DFEED8B00854B44 /* 快看漫画 */ = {
+		1D142DB21DFEEE0000854B44 /* 快看漫画 */ = {
 			isa = PBXGroup;
 			children = (
-				1D142D741DFEED8B00854B44 /* AppDelegate.h */,
-				1D142D751DFEED8B00854B44 /* AppDelegate.m */,
-				1D142D771DFEED8B00854B44 /* MasterViewController.h */,
-				1D142D781DFEED8B00854B44 /* MasterViewController.m */,
-				1D142D7A1DFEED8B00854B44 /* DetailViewController.h */,
-				1D142D7B1DFEED8B00854B44 /* DetailViewController.m */,
-				1D142D7D1DFEED8B00854B44 /* Main.storyboard */,
-				1D142D801DFEED8B00854B44 /* Assets.xcassets */,
-				1D142D821DFEED8B00854B44 /* LaunchScreen.storyboard */,
-				1D142D851DFEED8B00854B44 /* Info.plist */,
-				1D142D711DFEED8B00854B44 /* Supporting Files */,
+				1D142DB61DFEEE0000854B44 /* AppDelegate.h */,
+				1D142DB71DFEEE0000854B44 /* AppDelegate.m */,
+				1D142DB91DFEEE0000854B44 /* ViewController.h */,
+				1D142DBA1DFEEE0000854B44 /* ViewController.m */,
+				1D142DBC1DFEEE0000854B44 /* Main.storyboard */,
+				1D142DBF1DFEEE0000854B44 /* Assets.xcassets */,
+				1D142DC11DFEEE0000854B44 /* LaunchScreen.storyboard */,
+				1D142DC41DFEEE0000854B44 /* Info.plist */,
+				1D142DB31DFEEE0000854B44 /* Supporting Files */,
 			);
 			path = "快看漫画";
 			sourceTree = "<group>";
 		};
-		1D142D711DFEED8B00854B44 /* Supporting Files */ = {
+		1D142DB31DFEEE0000854B44 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1D142D721DFEED8B00854B44 /* main.m */,
+				1D142DB41DFEEE0000854B44 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1D142D8D1DFEED8B00854B44 /* 快看漫画Tests */ = {
+		1D142DCC1DFEEE0000854B44 /* 快看漫画Tests */ = {
 			isa = PBXGroup;
 			children = (
-				1D142D8E1DFEED8B00854B44 /* ____Tests.m */,
-				1D142D901DFEED8B00854B44 /* Info.plist */,
+				1D142DCD1DFEEE0000854B44 /* ____Tests.m */,
+				1D142DCF1DFEEE0000854B44 /* Info.plist */,
 			);
 			path = "快看漫画Tests";
 			sourceTree = "<group>";
 		};
-		1D142D981DFEED8B00854B44 /* 快看漫画UITests */ = {
+		1D142DD71DFEEE0000854B44 /* 快看漫画UITests */ = {
 			isa = PBXGroup;
 			children = (
-				1D142D991DFEED8B00854B44 /* ____UITests.m */,
-				1D142D9B1DFEED8B00854B44 /* Info.plist */,
+				1D142DD81DFEEE0000854B44 /* ____UITests.m */,
+				1D142DDA1DFEEE0000854B44 /* Info.plist */,
 			);
 			path = "快看漫画UITests";
 			sourceTree = "<group>";
@@ -148,13 +143,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D142D6D1DFEED8B00854B44 /* 快看漫画 */ = {
+		1D142DAF1DFEEE0000854B44 /* 快看漫画 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D142D9E1DFEED8B00854B44 /* Build configuration list for PBXNativeTarget "快看漫画" */;
+			buildConfigurationList = 1D142DDD1DFEEE0000854B44 /* Build configuration list for PBXNativeTarget "快看漫画" */;
 			buildPhases = (
-				1D142D6A1DFEED8B00854B44 /* Sources */,
-				1D142D6B1DFEED8B00854B44 /* Frameworks */,
-				1D142D6C1DFEED8B00854B44 /* Resources */,
+				1D142DAC1DFEEE0000854B44 /* Sources */,
+				1D142DAD1DFEEE0000854B44 /* Frameworks */,
+				1D142DAE1DFEEE0000854B44 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -162,68 +157,68 @@
 			);
 			name = "快看漫画";
 			productName = "快看漫画";
-			productReference = 1D142D6E1DFEED8B00854B44 /* 快看漫画.app */;
+			productReference = 1D142DB01DFEEE0000854B44 /* 快看漫画.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1D142D891DFEED8B00854B44 /* 快看漫画Tests */ = {
+		1D142DC81DFEEE0000854B44 /* 快看漫画Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D142DA11DFEED8B00854B44 /* Build configuration list for PBXNativeTarget "快看漫画Tests" */;
+			buildConfigurationList = 1D142DE01DFEEE0000854B44 /* Build configuration list for PBXNativeTarget "快看漫画Tests" */;
 			buildPhases = (
-				1D142D861DFEED8B00854B44 /* Sources */,
-				1D142D871DFEED8B00854B44 /* Frameworks */,
-				1D142D881DFEED8B00854B44 /* Resources */,
+				1D142DC51DFEEE0000854B44 /* Sources */,
+				1D142DC61DFEEE0000854B44 /* Frameworks */,
+				1D142DC71DFEEE0000854B44 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1D142D8C1DFEED8B00854B44 /* PBXTargetDependency */,
+				1D142DCB1DFEEE0000854B44 /* PBXTargetDependency */,
 			);
 			name = "快看漫画Tests";
 			productName = "快看漫画Tests";
-			productReference = 1D142D8A1DFEED8B00854B44 /* 快看漫画Tests.xctest */;
+			productReference = 1D142DC91DFEEE0000854B44 /* 快看漫画Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1D142D941DFEED8B00854B44 /* 快看漫画UITests */ = {
+		1D142DD31DFEEE0000854B44 /* 快看漫画UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D142DA41DFEED8B00854B44 /* Build configuration list for PBXNativeTarget "快看漫画UITests" */;
+			buildConfigurationList = 1D142DE31DFEEE0000854B44 /* Build configuration list for PBXNativeTarget "快看漫画UITests" */;
 			buildPhases = (
-				1D142D911DFEED8B00854B44 /* Sources */,
-				1D142D921DFEED8B00854B44 /* Frameworks */,
-				1D142D931DFEED8B00854B44 /* Resources */,
+				1D142DD01DFEEE0000854B44 /* Sources */,
+				1D142DD11DFEEE0000854B44 /* Frameworks */,
+				1D142DD21DFEEE0000854B44 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1D142D971DFEED8B00854B44 /* PBXTargetDependency */,
+				1D142DD61DFEEE0000854B44 /* PBXTargetDependency */,
 			);
 			name = "快看漫画UITests";
 			productName = "快看漫画UITests";
-			productReference = 1D142D951DFEED8B00854B44 /* 快看漫画UITests.xctest */;
+			productReference = 1D142DD41DFEEE0000854B44 /* 快看漫画UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1D142D661DFEED8B00854B44 /* Project object */ = {
+		1D142DA81DFEEE0000854B44 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "醉看红尘这场梦";
 				TargetAttributes = {
-					1D142D6D1DFEED8B00854B44 = {
+					1D142DAF1DFEEE0000854B44 = {
 						CreatedOnToolsVersion = 7.3;
 					};
-					1D142D891DFEED8B00854B44 = {
+					1D142DC81DFEEE0000854B44 = {
 						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 1D142D6D1DFEED8B00854B44;
+						TestTargetID = 1D142DAF1DFEEE0000854B44;
 					};
-					1D142D941DFEED8B00854B44 = {
+					1D142DD31DFEEE0000854B44 = {
 						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 1D142D6D1DFEED8B00854B44;
+						TestTargetID = 1D142DAF1DFEEE0000854B44;
 					};
 				};
 			};
-			buildConfigurationList = 1D142D691DFEED8B00854B44 /* Build configuration list for PBXProject "快看漫画" */;
+			buildConfigurationList = 1D142DAB1DFEEE0000854B44 /* Build configuration list for PBXProject "快看漫画" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,37 +226,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 1D142D651DFEED8B00854B44;
-			productRefGroup = 1D142D6F1DFEED8B00854B44 /* Products */;
+			mainGroup = 1D142DA71DFEEE0000854B44;
+			productRefGroup = 1D142DB11DFEEE0000854B44 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D142D6D1DFEED8B00854B44 /* 快看漫画 */,
-				1D142D891DFEED8B00854B44 /* 快看漫画Tests */,
-				1D142D941DFEED8B00854B44 /* 快看漫画UITests */,
+				1D142DAF1DFEEE0000854B44 /* 快看漫画 */,
+				1D142DC81DFEEE0000854B44 /* 快看漫画Tests */,
+				1D142DD31DFEEE0000854B44 /* 快看漫画UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1D142D6C1DFEED8B00854B44 /* Resources */ = {
+		1D142DAE1DFEEE0000854B44 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D142D841DFEED8B00854B44 /* LaunchScreen.storyboard in Resources */,
-				1D142D811DFEED8B00854B44 /* Assets.xcassets in Resources */,
-				1D142D7F1DFEED8B00854B44 /* Main.storyboard in Resources */,
+				1D142DC31DFEEE0000854B44 /* LaunchScreen.storyboard in Resources */,
+				1D142DC01DFEEE0000854B44 /* Assets.xcassets in Resources */,
+				1D142DBE1DFEEE0000854B44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D142D881DFEED8B00854B44 /* Resources */ = {
+		1D142DC71DFEEE0000854B44 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D142D931DFEED8B00854B44 /* Resources */ = {
+		1D142DD21DFEEE0000854B44 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -271,61 +266,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1D142D6A1DFEED8B00854B44 /* Sources */ = {
+		1D142DAC1DFEEE0000854B44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D142D761DFEED8B00854B44 /* AppDelegate.m in Sources */,
-				1D142D791DFEED8B00854B44 /* MasterViewController.m in Sources */,
-				1D142D731DFEED8B00854B44 /* main.m in Sources */,
-				1D142D7C1DFEED8B00854B44 /* DetailViewController.m in Sources */,
+				1D142DBB1DFEEE0000854B44 /* ViewController.m in Sources */,
+				1D142DB81DFEEE0000854B44 /* AppDelegate.m in Sources */,
+				1D142DB51DFEEE0000854B44 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D142D861DFEED8B00854B44 /* Sources */ = {
+		1D142DC51DFEEE0000854B44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D142D8F1DFEED8B00854B44 /* ____Tests.m in Sources */,
+				1D142DCE1DFEEE0000854B44 /* ____Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D142D911DFEED8B00854B44 /* Sources */ = {
+		1D142DD01DFEEE0000854B44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D142D9A1DFEED8B00854B44 /* ____UITests.m in Sources */,
+				1D142DD91DFEEE0000854B44 /* ____UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1D142D8C1DFEED8B00854B44 /* PBXTargetDependency */ = {
+		1D142DCB1DFEEE0000854B44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D142D6D1DFEED8B00854B44 /* 快看漫画 */;
-			targetProxy = 1D142D8B1DFEED8B00854B44 /* PBXContainerItemProxy */;
+			target = 1D142DAF1DFEEE0000854B44 /* 快看漫画 */;
+			targetProxy = 1D142DCA1DFEEE0000854B44 /* PBXContainerItemProxy */;
 		};
-		1D142D971DFEED8B00854B44 /* PBXTargetDependency */ = {
+		1D142DD61DFEEE0000854B44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D142D6D1DFEED8B00854B44 /* 快看漫画 */;
-			targetProxy = 1D142D961DFEED8B00854B44 /* PBXContainerItemProxy */;
+			target = 1D142DAF1DFEEE0000854B44 /* 快看漫画 */;
+			targetProxy = 1D142DD51DFEEE0000854B44 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1D142D7D1DFEED8B00854B44 /* Main.storyboard */ = {
+		1D142DBC1DFEEE0000854B44 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1D142D7E1DFEED8B00854B44 /* Base */,
+				1D142DBD1DFEEE0000854B44 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1D142D821DFEED8B00854B44 /* LaunchScreen.storyboard */ = {
+		1D142DC11DFEEE0000854B44 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1D142D831DFEED8B00854B44 /* Base */,
+				1D142DC21DFEEE0000854B44 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -333,7 +327,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1D142D9C1DFEED8B00854B44 /* Debug */ = {
+		1D142DDB1DFEEE0000854B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +371,7 @@
 			};
 			name = Debug;
 		};
-		1D142D9D1DFEED8B00854B44 /* Release */ = {
+		1D142DDC1DFEEE0000854B44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -415,7 +409,7 @@
 			};
 			name = Release;
 		};
-		1D142D9F1DFEED8B00854B44 /* Debug */ = {
+		1D142DDE1DFEEE0000854B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -426,7 +420,7 @@
 			};
 			name = Debug;
 		};
-		1D142DA01DFEED8B00854B44 /* Release */ = {
+		1D142DDF1DFEEE0000854B44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -437,7 +431,7 @@
 			};
 			name = Release;
 		};
-		1D142DA21DFEED8B00854B44 /* Debug */ = {
+		1D142DE11DFEEE0000854B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -449,7 +443,7 @@
 			};
 			name = Debug;
 		};
-		1D142DA31DFEED8B00854B44 /* Release */ = {
+		1D142DE21DFEEE0000854B44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -461,7 +455,7 @@
 			};
 			name = Release;
 		};
-		1D142DA51DFEED8B00854B44 /* Debug */ = {
+		1D142DE41DFEEE0000854B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "快看漫画UITests/Info.plist";
@@ -472,7 +466,7 @@
 			};
 			name = Debug;
 		};
-		1D142DA61DFEED8B00854B44 /* Release */ = {
+		1D142DE51DFEEE0000854B44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "快看漫画UITests/Info.plist";
@@ -486,40 +480,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D142D691DFEED8B00854B44 /* Build configuration list for PBXProject "快看漫画" */ = {
+		1D142DAB1DFEEE0000854B44 /* Build configuration list for PBXProject "快看漫画" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D142D9C1DFEED8B00854B44 /* Debug */,
-				1D142D9D1DFEED8B00854B44 /* Release */,
+				1D142DDB1DFEEE0000854B44 /* Debug */,
+				1D142DDC1DFEEE0000854B44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D142D9E1DFEED8B00854B44 /* Build configuration list for PBXNativeTarget "快看漫画" */ = {
+		1D142DDD1DFEEE0000854B44 /* Build configuration list for PBXNativeTarget "快看漫画" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D142D9F1DFEED8B00854B44 /* Debug */,
-				1D142DA01DFEED8B00854B44 /* Release */,
+				1D142DDE1DFEEE0000854B44 /* Debug */,
+				1D142DDF1DFEEE0000854B44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		1D142DA11DFEED8B00854B44 /* Build configuration list for PBXNativeTarget "快看漫画Tests" */ = {
+		1D142DE01DFEEE0000854B44 /* Build configuration list for PBXNativeTarget "快看漫画Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D142DA21DFEED8B00854B44 /* Debug */,
-				1D142DA31DFEED8B00854B44 /* Release */,
+				1D142DE11DFEEE0000854B44 /* Debug */,
+				1D142DE21DFEEE0000854B44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		1D142DA41DFEED8B00854B44 /* Build configuration list for PBXNativeTarget "快看漫画UITests" */ = {
+		1D142DE31DFEEE0000854B44 /* Build configuration list for PBXNativeTarget "快看漫画UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D142DA51DFEED8B00854B44 /* Debug */,
-				1D142DA61DFEED8B00854B44 /* Release */,
+				1D142DE41DFEEE0000854B44 /* Debug */,
+				1D142DE51DFEEE0000854B44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1D142D661DFEED8B00854B44 /* Project object */;
+	rootObject = 1D142DA81DFEEE0000854B44 /* Project object */;
 }
