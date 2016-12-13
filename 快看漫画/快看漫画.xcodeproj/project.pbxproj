@@ -31,6 +31,10 @@
 		5B4CA7421DFFD6D90006A8C2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7411DFFD6D90006A8C2 /* UIView+Extension.m */; };
 		5B4CA7441DFFD7950006A8C2 /* PersonalCenter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4CA7431DFFD7950006A8C2 /* PersonalCenter.storyboard */; };
 		5B4CA7471DFFEBBF0006A8C2 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7461DFFEBBF0006A8C2 /* UIBarButtonItem+Extension.m */; };
+		5B4CA74A1DFFEC6C0006A8C2 /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7491DFFEC6C0006A8C2 /* SettingTableViewController.m */; };
+		5B4CA74D1DFFECE00006A8C2 /* MyMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA74C1DFFECE00006A8C2 /* MyMessageViewController.m */; };
+		5B4CA7501DFFECEB0006A8C2 /* MyFellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA74F1DFFECEB0006A8C2 /* MyFellowViewController.m */; };
+		5B4CA7531DFFECF80006A8C2 /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7521DFFECF80006A8C2 /* MyCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +101,14 @@
 		5B4CA7431DFFD7950006A8C2 /* PersonalCenter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PersonalCenter.storyboard; sourceTree = "<group>"; };
 		5B4CA7451DFFEBBF0006A8C2 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
 		5B4CA7461DFFEBBF0006A8C2 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		5B4CA7481DFFEC6C0006A8C2 /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewController.h; sourceTree = "<group>"; };
+		5B4CA7491DFFEC6C0006A8C2 /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewController.m; sourceTree = "<group>"; };
+		5B4CA74B1DFFECE00006A8C2 /* MyMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMessageViewController.h; sourceTree = "<group>"; };
+		5B4CA74C1DFFECE00006A8C2 /* MyMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMessageViewController.m; sourceTree = "<group>"; };
+		5B4CA74E1DFFECEB0006A8C2 /* MyFellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFellowViewController.h; sourceTree = "<group>"; };
+		5B4CA74F1DFFECEB0006A8C2 /* MyFellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFellowViewController.m; sourceTree = "<group>"; };
+		5B4CA7511DFFECF80006A8C2 /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
+		5B4CA7521DFFECF80006A8C2 /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
 		5FF7DC4C0FE3CCE023E50BAD /* Pods-快看漫画.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快看漫画.release.xcconfig"; path = "Pods/Target Support Files/Pods-快看漫画/Pods-快看漫画.release.xcconfig"; sourceTree = "<group>"; };
 		7F52C35FF969E4E51D5E9188 /* libPods-快看漫画.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-快看漫画.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03D1493421763BA050EF452 /* Pods-快看漫画.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快看漫画.debug.xcconfig"; path = "Pods/Target Support Files/Pods-快看漫画/Pods-快看漫画.debug.xcconfig"; sourceTree = "<group>"; };
@@ -445,6 +457,14 @@
 			children = (
 				5B4CA7351DFFD6250006A8C2 /* PersonalViewController.h */,
 				5B4CA7361DFFD6250006A8C2 /* PersonalViewController.m */,
+				5B4CA7481DFFEC6C0006A8C2 /* SettingTableViewController.h */,
+				5B4CA7491DFFEC6C0006A8C2 /* SettingTableViewController.m */,
+				5B4CA74B1DFFECE00006A8C2 /* MyMessageViewController.h */,
+				5B4CA74C1DFFECE00006A8C2 /* MyMessageViewController.m */,
+				5B4CA74E1DFFECEB0006A8C2 /* MyFellowViewController.h */,
+				5B4CA74F1DFFECEB0006A8C2 /* MyFellowViewController.m */,
+				5B4CA7511DFFECF80006A8C2 /* MyCollectionViewController.h */,
+				5B4CA7521DFFECF80006A8C2 /* MyCollectionViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -658,13 +678,17 @@
 				5B4CA7341DFFD54E0006A8C2 /* UserInfoManager.m in Sources */,
 				5B4CA7161DFFD0950006A8C2 /* BaseNavigationController.m in Sources */,
 				5B4CA71F1DFFD0F60006A8C2 /* GuideViewController.m in Sources */,
+				5B4CA74A1DFFEC6C0006A8C2 /* SettingTableViewController.m in Sources */,
 				5B4CA7191DFFD0C20006A8C2 /* BaseViewController.m in Sources */,
 				5B4CA73F1DFFD6A20006A8C2 /* DetailViewController.m in Sources */,
 				5B4CA7281DFFD1600006A8C2 /* HomeViewController.m in Sources */,
 				1D142DBB1DFEEE0000854B44 /* ViewController.m in Sources */,
+				5B4CA7501DFFECEB0006A8C2 /* MyFellowViewController.m in Sources */,
 				1D142DB81DFEEE0000854B44 /* AppDelegate.m in Sources */,
+				5B4CA7531DFFECF80006A8C2 /* MyCollectionViewController.m in Sources */,
 				5B4CA7371DFFD6250006A8C2 /* PersonalViewController.m in Sources */,
 				5B4CA7251DFFD11A0006A8C2 /* MainTabbar.m in Sources */,
+				5B4CA74D1DFFECE00006A8C2 /* MyMessageViewController.m in Sources */,
 				5B4CA7471DFFEBBF0006A8C2 /* UIBarButtonItem+Extension.m in Sources */,
 				5B4CA71C1DFFD0D60006A8C2 /* BaseTableViewController.m in Sources */,
 				5B4CA72E1DFFD1B00006A8C2 /* AuthorStatusViewController.m in Sources */,
