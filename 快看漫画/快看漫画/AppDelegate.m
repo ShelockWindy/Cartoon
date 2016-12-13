@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "MainTabBarController.h"
+#import "UserInfoManager.h"
+#import "GuideViewController.h"
+#import <UMMobClick/MobClick.h>
 
 @interface AppDelegate ()
 
@@ -16,8 +20,45 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    _window.rootViewController = [self isFirstOpen] ? [GuideViewController new] : [MainTabBarController new];
+    
+    [_window makeKeyAndVisible];
+    
+    [self configUM];
+    //通知用户是否登录
+//    [UserInfoManager autoLogin];
+    
     return YES;
+}
+
+- (void)configUM {
+    
+    [UMConfigInstance setAppKey:@"5790e63967e58e0b0d0037cc"];
+    NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+    
+    [MobClick setAppVersion:version];
+    [MobClick startWithConfigure:UMConfigInstance];
+    
+}
+
+- (BOOL)isFirstOpen {
+    
+    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    
+    NSString *key = NSStringFromSelector(_cmd);
+    
+    BOOL isLastOpen = [ud boolForKey:key];
+    
+    if (isLastOpen) {
+        return NO;
+    }else {
+        [ud setBool:YES forKey:key];
+        return YES;
+    }
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

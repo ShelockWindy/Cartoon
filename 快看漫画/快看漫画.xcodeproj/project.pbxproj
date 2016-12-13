@@ -25,6 +25,7 @@
 		5B4CA7281DFFD1600006A8C2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7271DFFD1600006A8C2 /* HomeViewController.m */; };
 		5B4CA72B1DFFD1730006A8C2 /* FindingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA72A1DFFD1730006A8C2 /* FindingsViewController.m */; };
 		5B4CA72E1DFFD1B00006A8C2 /* AuthorStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA72D1DFFD1B00006A8C2 /* AuthorStatusViewController.m */; };
+		5B4CA7341DFFD54E0006A8C2 /* UserInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7331DFFD54E0006A8C2 /* UserInfoManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,8 @@
 		5B4CA72C1DFFD1B00006A8C2 /* AuthorStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorStatusViewController.h; sourceTree = "<group>"; };
 		5B4CA72D1DFFD1B00006A8C2 /* AuthorStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorStatusViewController.m; sourceTree = "<group>"; };
 		5B4CA72F1DFFD20C0006A8C2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5B4CA7321DFFD54E0006A8C2 /* UserInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoManager.h; sourceTree = "<group>"; };
+		5B4CA7331DFFD54E0006A8C2 /* UserInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoManager.m; sourceTree = "<group>"; };
 		5FF7DC4C0FE3CCE023E50BAD /* Pods-快看漫画.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快看漫画.release.xcconfig"; path = "Pods/Target Support Files/Pods-快看漫画/Pods-快看漫画.release.xcconfig"; sourceTree = "<group>"; };
 		7F52C35FF969E4E51D5E9188 /* libPods-快看漫画.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-快看漫画.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03D1493421763BA050EF452 /* Pods-快看漫画.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快看漫画.debug.xcconfig"; path = "Pods/Target Support Files/Pods-快看漫画/Pods-快看漫画.debug.xcconfig"; sourceTree = "<group>"; };
@@ -206,11 +209,29 @@
 			path = BaseClasses;
 			sourceTree = "<group>";
 		};
+		5B4CA7301DFFD39A0006A8C2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5B4CA7311DFFD3A80006A8C2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CA7321DFFD54E0006A8C2 /* UserInfoManager.h */,
+				5B4CA7331DFFD54E0006A8C2 /* UserInfoManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		5B7FE27A1DFF9338004A7C0E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5B4CA7131DFFD0840006A8C2 /* BaseClasses */,
+				5B4CA7311DFFD3A80006A8C2 /* Managers */,
+				5B4CA7301DFFD39A0006A8C2 /* Extension */,
 				5B4CA7121DFFD01D0006A8C2 /* Resource */,
+				5B4CA7131DFFD0840006A8C2 /* BaseClasses */,
 				5B7FE27F1DFF9379004A7C0E /* Author */,
 				5B7FE2831DFF9379004A7C0E /* Found */,
 				5B7FE2871DFF9379004A7C0E /* Home */,
@@ -570,6 +591,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4CA72B1DFFD1730006A8C2 /* FindingsViewController.m in Sources */,
+				5B4CA7341DFFD54E0006A8C2 /* UserInfoManager.m in Sources */,
 				5B4CA7161DFFD0950006A8C2 /* BaseNavigationController.m in Sources */,
 				5B4CA71F1DFFD0F60006A8C2 /* GuideViewController.m in Sources */,
 				5B4CA7191DFFD0C20006A8C2 /* BaseViewController.m in Sources */,
