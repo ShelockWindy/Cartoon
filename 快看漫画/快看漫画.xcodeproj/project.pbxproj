@@ -28,6 +28,7 @@
 		1D9A613F1E003D7200F17717 /* CartoonSummaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A613D1E003D7200F17717 /* CartoonSummaryCell.m */; };
 		1D9A61401E003D7200F17717 /* CartoonSummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D9A613E1E003D7200F17717 /* CartoonSummaryCell.xib */; };
 		1D9A61431E003DCF00F17717 /* wordsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A61421E003DCF00F17717 /* wordsModel.m */; };
+		1D9A61461E003F6700F17717 /* ModelCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A61451E003F6700F17717 /* ModelCacheManager.m */; };
 		5B4CA71F1DFFD0F60006A8C2 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA71E1DFFD0F60006A8C2 /* GuideViewController.m */; };
 		5B4CA7221DFFD10A0006A8C2 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7211DFFD10A0006A8C2 /* MainTabBarController.m */; };
 		5B4CA7251DFFD11A0006A8C2 /* MainTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7241DFFD11A0006A8C2 /* MainTabbar.m */; };
@@ -222,6 +223,8 @@
 		1D9A613E1E003D7200F17717 /* CartoonSummaryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartoonSummaryCell.xib; sourceTree = "<group>"; };
 		1D9A61411E003DCF00F17717 /* wordsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordsModel.h; sourceTree = "<group>"; };
 		1D9A61421E003DCF00F17717 /* wordsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordsModel.m; sourceTree = "<group>"; };
+		1D9A61441E003F6700F17717 /* ModelCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelCacheManager.h; sourceTree = "<group>"; };
+		1D9A61451E003F6700F17717 /* ModelCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelCacheManager.m; sourceTree = "<group>"; };
 		5B4CA71D1DFFD0F60006A8C2 /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
 		5B4CA71E1DFFD0F60006A8C2 /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
 		5B4CA7201DFFD10A0006A8C2 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
@@ -633,6 +636,8 @@
 				5B4CA86A1DFFF0590006A8C2 /* NetWorkManager.m */,
 				1D9A61221E0039A200F17717 /* DateManager.h */,
 				1D9A61231E0039A200F17717 /* DateManager.m */,
+				1D9A61441E003F6700F17717 /* ModelCacheManager.h */,
+				1D9A61451E003F6700F17717 /* ModelCacheManager.m */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -1404,6 +1409,7 @@
 				5B4CA8201DFFEF000006A8C2 /* lossless_enc_sse41.c in Sources */,
 				5B4CA74A1DFFEC6C0006A8C2 /* SettingTableViewController.m in Sources */,
 				5B4CA8511DFFEF000006A8C2 /* quant_levels.c in Sources */,
+				1D9A61461E003F6700F17717 /* ModelCacheManager.m in Sources */,
 				5B4CA7FF1DFFEF000006A8C2 /* alpha_processing_sse2.c in Sources */,
 				5B4CA80C1DFFEF000006A8C2 /* dec_mips_dsp_r2.c in Sources */,
 				5B4CA7F11DFFEF000006A8C2 /* alpha.c in Sources */,
