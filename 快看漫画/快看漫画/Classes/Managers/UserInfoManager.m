@@ -7,7 +7,7 @@
 //
 
 #import "UserInfoManager.h"
-
+#import "MJExtension.h"
 #import "NetWorkManager.h"
 #import "ProgressHUD.h"
 #import "CommentsModel.h"
@@ -120,11 +120,11 @@ static NSString * const replyUrlFormat = @"http://api.kuaikanmanhua.com/v1/comme
     return NO;
 }
 
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-    if (buttonIndex == 1) {
-        [LoginViewController show];
-    }
-}
+//- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+//    if (buttonIndex == 1) {
+//        [LoginViewController show];
+//    }
+//}
 
 + (void)loginWithPhone:(NSString *)phone
           WithPassword:(NSString *)password
