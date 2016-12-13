@@ -10,15 +10,11 @@
 
 @interface MainTabbarItem : UIButton
 
-
-
 @end
 
 @implementation MainTabbarItem
 
-- (void)setHighlighted:(BOOL)highlighted {
-    
-}
+- (void)setHighlighted:(BOOL)highlighted {}
 
 @end
 
@@ -59,7 +55,7 @@
     if (self.items.count < 1) {
         return;
     }
-    
+
     NSInteger count = self.items.count;
     
     CGFloat spacing = self.bounds.size.width/count;

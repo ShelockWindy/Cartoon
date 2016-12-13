@@ -30,6 +30,7 @@
 		5B4CA73F1DFFD6A20006A8C2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA73E1DFFD6A20006A8C2 /* DetailViewController.m */; };
 		5B4CA7421DFFD6D90006A8C2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7411DFFD6D90006A8C2 /* UIView+Extension.m */; };
 		5B4CA7441DFFD7950006A8C2 /* PersonalCenter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4CA7431DFFD7950006A8C2 /* PersonalCenter.storyboard */; };
+		5B4CA7471DFFEBBF0006A8C2 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7461DFFEBBF0006A8C2 /* UIBarButtonItem+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,8 @@
 		5B4CA7401DFFD6D90006A8C2 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		5B4CA7411DFFD6D90006A8C2 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		5B4CA7431DFFD7950006A8C2 /* PersonalCenter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PersonalCenter.storyboard; sourceTree = "<group>"; };
+		5B4CA7451DFFEBBF0006A8C2 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		5B4CA7461DFFEBBF0006A8C2 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		5FF7DC4C0FE3CCE023E50BAD /* Pods-快看漫画.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快看漫画.release.xcconfig"; path = "Pods/Target Support Files/Pods-快看漫画/Pods-快看漫画.release.xcconfig"; sourceTree = "<group>"; };
 		7F52C35FF969E4E51D5E9188 /* libPods-快看漫画.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-快看漫画.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03D1493421763BA050EF452 /* Pods-快看漫画.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快看漫画.debug.xcconfig"; path = "Pods/Target Support Files/Pods-快看漫画/Pods-快看漫画.debug.xcconfig"; sourceTree = "<group>"; };
@@ -225,6 +228,8 @@
 			children = (
 				5B4CA7401DFFD6D90006A8C2 /* UIView+Extension.h */,
 				5B4CA7411DFFD6D90006A8C2 /* UIView+Extension.m */,
+				5B4CA7451DFFEBBF0006A8C2 /* UIBarButtonItem+Extension.h */,
+				5B4CA7461DFFEBBF0006A8C2 /* UIBarButtonItem+Extension.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -660,6 +665,7 @@
 				1D142DB81DFEEE0000854B44 /* AppDelegate.m in Sources */,
 				5B4CA7371DFFD6250006A8C2 /* PersonalViewController.m in Sources */,
 				5B4CA7251DFFD11A0006A8C2 /* MainTabbar.m in Sources */,
+				5B4CA7471DFFEBBF0006A8C2 /* UIBarButtonItem+Extension.m in Sources */,
 				5B4CA71C1DFFD0D60006A8C2 /* BaseTableViewController.m in Sources */,
 				5B4CA72E1DFFD1B00006A8C2 /* AuthorStatusViewController.m in Sources */,
 				5B4CA7221DFFD10A0006A8C2 /* MainTabBarController.m in Sources */,
