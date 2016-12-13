@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C88C6D47F6BAEEBFEC51963 /* libPods-快看漫画.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F52C35FF969E4E51D5E9188 /* libPods-快看漫画.a */; };
 		1D142DB51DFEEE0000854B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DB41DFEEE0000854B44 /* main.m */; };
 		1D142DB81DFEEE0000854B44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DB71DFEEE0000854B44 /* AppDelegate.m */; };
 		1D142DBB1DFEEE0000854B44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DBA1DFEEE0000854B44 /* ViewController.m */; };
@@ -51,6 +52,9 @@
 		1D142DD41DFEEE0000854B44 /* 快看漫画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "快看漫画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D142DD81DFEEE0000854B44 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		1D142DDA1DFEEE0000854B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF7DC4C0FE3CCE023E50BAD /* Pods-快看漫画.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快看漫画.release.xcconfig"; path = "Pods/Target Support Files/Pods-快看漫画/Pods-快看漫画.release.xcconfig"; sourceTree = "<group>"; };
+		7F52C35FF969E4E51D5E9188 /* libPods-快看漫画.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-快看漫画.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03D1493421763BA050EF452 /* Pods-快看漫画.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快看漫画.debug.xcconfig"; path = "Pods/Target Support Files/Pods-快看漫画/Pods-快看漫画.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C88C6D47F6BAEEBFEC51963 /* libPods-快看漫画.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				1D142DCC1DFEEE0000854B44 /* 快看漫画Tests */,
 				1D142DD71DFEEE0000854B44 /* 快看漫画UITests */,
 				1D142DB11DFEEE0000854B44 /* Products */,
+				4002352661715F849A79C655 /* Pods */,
+				CCD5C90CA6508203CE078AA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +146,15 @@
 				1D142DDA1DFEEE0000854B44 /* Info.plist */,
 			);
 			path = "快看漫画UITests";
+			sourceTree = "<group>";
+		};
+		4002352661715F849A79C655 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F03D1493421763BA050EF452 /* Pods-快看漫画.debug.xcconfig */,
+				5FF7DC4C0FE3CCE023E50BAD /* Pods-快看漫画.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		5B7FE27A1DFF9338004A7C0E /* Classes */ = {
@@ -308,6 +324,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		CCD5C90CA6508203CE078AA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F52C35FF969E4E51D5E9188 /* libPods-快看漫画.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -315,9 +339,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D142DDD1DFEEE0000854B44 /* Build configuration list for PBXNativeTarget "快看漫画" */;
 			buildPhases = (
+				595D0D59A39D3C7E36CC734A /* [CP] Check Pods Manifest.lock */,
 				1D142DAC1DFEEE0000854B44 /* Sources */,
 				1D142DAD1DFEEE0000854B44 /* Frameworks */,
 				1D142DAE1DFEEE0000854B44 /* Resources */,
+				93015F7414A7211D08DF1FAF /* [CP] Embed Pods Frameworks */,
+				5A88359143441E4C52F00776 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -432,6 +459,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		595D0D59A39D3C7E36CC734A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A88359143441E4C52F00776 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-快看漫画/Pods-快看漫画-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93015F7414A7211D08DF1FAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-快看漫画/Pods-快看漫画-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D142DAC1DFEEE0000854B44 /* Sources */ = {
@@ -579,6 +654,7 @@
 		};
 		1D142DDE1DFEEE0000854B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03D1493421763BA050EF452 /* Pods-快看漫画.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -591,6 +667,7 @@
 		};
 		1D142DDF1DFEEE0000854B44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FF7DC4C0FE3CCE023E50BAD /* Pods-快看漫画.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
