@@ -28,7 +28,7 @@
     
     [self configUM];
     /* 通知用户是否登录 */
-//    [UserInfoManager autoLogin];
+    [UserInfoManager autoLogin];
     
     return YES;
 }

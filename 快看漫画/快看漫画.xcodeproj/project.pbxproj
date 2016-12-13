@@ -16,9 +16,6 @@
 		1D142DC31DFEEE0000854B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D142DC11DFEEE0000854B44 /* LaunchScreen.storyboard */; };
 		1D142DCE1DFEEE0000854B44 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DCD1DFEEE0000854B44 /* ____Tests.m */; };
 		1D142DD91DFEEE0000854B44 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DD81DFEEE0000854B44 /* ____UITests.m */; };
-		5B4CA7161DFFD0950006A8C2 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7151DFFD0950006A8C2 /* BaseNavigationController.m */; };
-		5B4CA7191DFFD0C20006A8C2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7181DFFD0C20006A8C2 /* BaseViewController.m */; };
-		5B4CA71C1DFFD0D60006A8C2 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA71B1DFFD0D60006A8C2 /* BaseTableViewController.m */; };
 		5B4CA71F1DFFD0F60006A8C2 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA71E1DFFD0F60006A8C2 /* GuideViewController.m */; };
 		5B4CA7221DFFD10A0006A8C2 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7211DFFD10A0006A8C2 /* MainTabBarController.m */; };
 		5B4CA7251DFFD11A0006A8C2 /* MainTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7241DFFD11A0006A8C2 /* MainTabbar.m */; };
@@ -146,6 +143,15 @@
 		5B4CA8661DFFEF330006A8C2 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA8601DFFEF330006A8C2 /* UITableView+FDTemplateLayoutCellDebug.m */; };
 		5B4CA8671DFFEF330006A8C2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5B4CA8611DFFEF330006A8C2 /* LICENSE */; };
 		5B4CA8681DFFEF330006A8C2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA8621DFFEF330006A8C2 /* README.md */; };
+		5B4CA86B1DFFF0590006A8C2 /* NetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA86A1DFFF0590006A8C2 /* NetWorkManager.m */; };
+		5B4CA8711DFFF0BB0006A8C2 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA8701DFFF0BB0006A8C2 /* ProgressHUD.m */; };
+		5B4CA8781DFFF1580006A8C2 /* CommentsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA8771DFFF1580006A8C2 /* CommentsModel.m */; };
+		5B4CA8811DFFF17E0006A8C2 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA87B1DFFF17E0006A8C2 /* BaseNavigationController.m */; };
+		5B4CA8821DFFF17E0006A8C2 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA87D1DFFF17E0006A8C2 /* BaseTableViewController.m */; };
+		5B4CA8831DFFF17E0006A8C2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA87F1DFFF17E0006A8C2 /* BaseViewController.m */; };
+		5B4CA8861DFFF1A10006A8C2 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA8851DFFF1A10006A8C2 /* BaseModel.m */; };
+		5B4CA88B1DFFF1FD0006A8C2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA8891DFFF1FD0006A8C2 /* LoginViewController.m */; };
+		5B4CA88C1DFFF1FD0006A8C2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4CA88A1DFFF1FD0006A8C2 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,12 +188,6 @@
 		1D142DD41DFEEE0000854B44 /* 快看漫画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "快看漫画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D142DD81DFEEE0000854B44 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		1D142DDA1DFEEE0000854B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B4CA7141DFFD0950006A8C2 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
-		5B4CA7151DFFD0950006A8C2 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
-		5B4CA7171DFFD0C20006A8C2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		5B4CA7181DFFD0C20006A8C2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		5B4CA71A1DFFD0D60006A8C2 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
-		5B4CA71B1DFFD0D60006A8C2 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		5B4CA71D1DFFD0F60006A8C2 /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
 		5B4CA71E1DFFD0F60006A8C2 /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
 		5B4CA7201DFFD10A0006A8C2 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
@@ -375,6 +375,23 @@
 		5B4CA8601DFFEF330006A8C2 /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
 		5B4CA8611DFFEF330006A8C2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5B4CA8621DFFEF330006A8C2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5B4CA8691DFFF0590006A8C2 /* NetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkManager.h; sourceTree = "<group>"; };
+		5B4CA86A1DFFF0590006A8C2 /* NetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkManager.m; sourceTree = "<group>"; };
+		5B4CA86F1DFFF0BB0006A8C2 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		5B4CA8701DFFF0BB0006A8C2 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		5B4CA8761DFFF1580006A8C2 /* CommentsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsModel.h; sourceTree = "<group>"; };
+		5B4CA8771DFFF1580006A8C2 /* CommentsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsModel.m; sourceTree = "<group>"; };
+		5B4CA87A1DFFF17E0006A8C2 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		5B4CA87B1DFFF17E0006A8C2 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		5B4CA87C1DFFF17E0006A8C2 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		5B4CA87D1DFFF17E0006A8C2 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		5B4CA87E1DFFF17E0006A8C2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		5B4CA87F1DFFF17E0006A8C2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		5B4CA8841DFFF1A10006A8C2 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		5B4CA8851DFFF1A10006A8C2 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		5B4CA8881DFFF1FD0006A8C2 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		5B4CA8891DFFF1FD0006A8C2 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5B4CA88A1DFFF1FD0006A8C2 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		5FF7DC4C0FE3CCE023E50BAD /* Pods-快看漫画.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快看漫画.release.xcconfig"; path = "Pods/Target Support Files/Pods-快看漫画/Pods-快看漫画.release.xcconfig"; sourceTree = "<group>"; };
 		7F52C35FF969E4E51D5E9188 /* libPods-快看漫画.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-快看漫画.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03D1493421763BA050EF452 /* Pods-快看漫画.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快看漫画.debug.xcconfig"; path = "Pods/Target Support Files/Pods-快看漫画/Pods-快看漫画.debug.xcconfig"; sourceTree = "<group>"; };
@@ -493,12 +510,8 @@
 		5B4CA7131DFFD0840006A8C2 /* BaseClasses */ = {
 			isa = PBXGroup;
 			children = (
-				5B4CA7141DFFD0950006A8C2 /* BaseNavigationController.h */,
-				5B4CA7151DFFD0950006A8C2 /* BaseNavigationController.m */,
-				5B4CA7171DFFD0C20006A8C2 /* BaseViewController.h */,
-				5B4CA7181DFFD0C20006A8C2 /* BaseViewController.m */,
-				5B4CA71A1DFFD0D60006A8C2 /* BaseTableViewController.h */,
-				5B4CA71B1DFFD0D60006A8C2 /* BaseTableViewController.m */,
+				5B4CA8791DFFF17E0006A8C2 /* Controller */,
+				5B4CA8801DFFF17E0006A8C2 /* Models */,
 			);
 			path = BaseClasses;
 			sourceTree = "<group>";
@@ -519,6 +532,8 @@
 			children = (
 				5B4CA7321DFFD54E0006A8C2 /* UserInfoManager.h */,
 				5B4CA7331DFFD54E0006A8C2 /* UserInfoManager.m */,
+				5B4CA8691DFFF0590006A8C2 /* NetWorkManager.h */,
+				5B4CA86A1DFFF0590006A8C2 /* NetWorkManager.m */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -526,6 +541,8 @@
 		5B4CA7381DFFD68F0006A8C2 /* PublicView */ = {
 			isa = PBXGroup;
 			children = (
+				5B4CA8871DFFF1EC0006A8C2 /* Login */,
+				5B4CA8721DFFF12A0006A8C2 /* CommentDetail(评论详情) */,
 				5B4CA7391DFFD68F0006A8C2 /* Detail(漫画详情) */,
 			);
 			path = PublicView;
@@ -805,9 +822,100 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		5B4CA86C1DFFF0910006A8C2 /* UI自定义 */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CA86D1DFFF0AB0006A8C2 /* Views */,
+			);
+			path = "UI自定义";
+			sourceTree = "<group>";
+		};
+		5B4CA86D1DFFF0AB0006A8C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CA86E1DFFF0AB0006A8C2 /* DCPicscollView */,
+				5B4CA86F1DFFF0BB0006A8C2 /* ProgressHUD.h */,
+				5B4CA8701DFFF0BB0006A8C2 /* ProgressHUD.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B4CA86E1DFFF0AB0006A8C2 /* DCPicscollView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DCPicscollView;
+			sourceTree = "<group>";
+		};
+		5B4CA8721DFFF12A0006A8C2 /* CommentDetail(评论详情) */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CA8731DFFF12A0006A8C2 /* Controller */,
+				5B4CA8741DFFF12A0006A8C2 /* Model */,
+				5B4CA8751DFFF12A0006A8C2 /* view */,
+			);
+			path = "CommentDetail(评论详情)";
+			sourceTree = "<group>";
+		};
+		5B4CA8731DFFF12A0006A8C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5B4CA8741DFFF12A0006A8C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CA8761DFFF1580006A8C2 /* CommentsModel.h */,
+				5B4CA8771DFFF1580006A8C2 /* CommentsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B4CA8751DFFF12A0006A8C2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5B4CA8791DFFF17E0006A8C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CA87A1DFFF17E0006A8C2 /* BaseNavigationController.h */,
+				5B4CA87B1DFFF17E0006A8C2 /* BaseNavigationController.m */,
+				5B4CA87C1DFFF17E0006A8C2 /* BaseTableViewController.h */,
+				5B4CA87D1DFFF17E0006A8C2 /* BaseTableViewController.m */,
+				5B4CA87E1DFFF17E0006A8C2 /* BaseViewController.h */,
+				5B4CA87F1DFFF17E0006A8C2 /* BaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5B4CA8801DFFF17E0006A8C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CA8841DFFF1A10006A8C2 /* BaseModel.h */,
+				5B4CA8851DFFF1A10006A8C2 /* BaseModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B4CA8871DFFF1EC0006A8C2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CA8881DFFF1FD0006A8C2 /* LoginViewController.h */,
+				5B4CA8891DFFF1FD0006A8C2 /* LoginViewController.m */,
+				5B4CA88A1DFFF1FD0006A8C2 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		5B7FE27A1DFF9338004A7C0E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5B4CA86C1DFFF0910006A8C2 /* UI自定义 */,
 				5B4CA7381DFFD68F0006A8C2 /* PublicView */,
 				5B4CA7311DFFD3A80006A8C2 /* Managers */,
 				5B4CA7301DFFD39A0006A8C2 /* Extension */,
@@ -1115,6 +1223,7 @@
 				1D142DC01DFEEE0000854B44 /* Assets.xcassets in Resources */,
 				5B4CA7EE1DFFEF000006A8C2 /* COPYING in Resources */,
 				1D142DBE1DFEEE0000854B44 /* Main.storyboard in Resources */,
+				5B4CA88C1DFFF1FD0006A8C2 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1204,7 +1313,6 @@
 				5B4CA82C1DFFEF000006A8C2 /* upsampling_sse2.c in Sources */,
 				5B4CA84D1DFFEF000006A8C2 /* color_cache.c in Sources */,
 				5B4CA84B1DFFEF000006A8C2 /* bit_reader.c in Sources */,
-				5B4CA7161DFFD0950006A8C2 /* BaseNavigationController.m in Sources */,
 				5B4CA80B1DFFEF000006A8C2 /* dec_mips32.c in Sources */,
 				5B4CA7F31DFFEF000006A8C2 /* frame.c in Sources */,
 				5B4CA8391DFFEF000006A8C2 /* histogram.c in Sources */,
@@ -1212,6 +1320,7 @@
 				5B4CA8101DFFEF000006A8C2 /* enc.c in Sources */,
 				5B4CA8231DFFEF000006A8C2 /* lossless_sse2.c in Sources */,
 				5B4CA8221DFFEF000006A8C2 /* lossless_neon.c in Sources */,
+				5B4CA8831DFFF17E0006A8C2 /* BaseViewController.m in Sources */,
 				5B4CA7FB1DFFEF000006A8C2 /* anim_decode.c in Sources */,
 				5B4CA8091DFFEF000006A8C2 /* dec.c in Sources */,
 				5B4CA8191DFFEF000006A8C2 /* filters_sse2.c in Sources */,
@@ -1232,7 +1341,6 @@
 				5B4CA8511DFFEF000006A8C2 /* quant_levels.c in Sources */,
 				5B4CA7FF1DFFEF000006A8C2 /* alpha_processing_sse2.c in Sources */,
 				5B4CA80C1DFFEF000006A8C2 /* dec_mips_dsp_r2.c in Sources */,
-				5B4CA7191DFFD0C20006A8C2 /* BaseViewController.m in Sources */,
 				5B4CA7F11DFFEF000006A8C2 /* alpha.c in Sources */,
 				5B4CA8001DFFEF000006A8C2 /* alpha_processing_sse41.c in Sources */,
 				5B4CA82A1DFFEF000006A8C2 /* upsampling_mips_dsp_r2.c in Sources */,
@@ -1241,8 +1349,10 @@
 				5B4CA84E1DFFEF000006A8C2 /* filters.c in Sources */,
 				5B4CA8491DFFEF000006A8C2 /* muxinternal.c in Sources */,
 				5B4CA80F1DFFEF000006A8C2 /* dec_sse41.c in Sources */,
+				5B4CA88B1DFFF1FD0006A8C2 /* LoginViewController.m in Sources */,
 				5B4CA8681DFFEF330006A8C2 /* README.md in Sources */,
 				5B4CA8281DFFEF000006A8C2 /* rescaler_sse2.c in Sources */,
+				5B4CA8811DFFF17E0006A8C2 /* BaseNavigationController.m in Sources */,
 				5B4CA73F1DFFD6A20006A8C2 /* DetailViewController.m in Sources */,
 				5B4CA8441DFFEF000006A8C2 /* tree.c in Sources */,
 				5B4CA8521DFFEF000006A8C2 /* quant_levels_dec.c in Sources */,
@@ -1262,9 +1372,11 @@
 				5B4CA7501DFFECEB0006A8C2 /* MyFellowViewController.m in Sources */,
 				5B4CA8271DFFEF000006A8C2 /* rescaler_neon.c in Sources */,
 				5B4CA8261DFFEF000006A8C2 /* rescaler_mips_dsp_r2.c in Sources */,
+				5B4CA86B1DFFF0590006A8C2 /* NetWorkManager.m in Sources */,
 				5B4CA82F1DFFEF000006A8C2 /* yuv_mips_dsp_r2.c in Sources */,
 				5B4CA7F61DFFEF000006A8C2 /* quant.c in Sources */,
 				5B4CA8341DFFEF000006A8C2 /* config.c in Sources */,
+				5B4CA8821DFFF17E0006A8C2 /* BaseTableViewController.m in Sources */,
 				5B4CA80D1DFFEF000006A8C2 /* dec_neon.c in Sources */,
 				1D142DB81DFEEE0000854B44 /* AppDelegate.m in Sources */,
 				5B4CA8631DFFEF330006A8C2 /* UITableView+FDIndexPathHeightCache.m in Sources */,
@@ -1278,6 +1390,7 @@
 				5B4CA7251DFFD11A0006A8C2 /* MainTabbar.m in Sources */,
 				5B4CA8371DFFEF000006A8C2 /* filter.c in Sources */,
 				5B4CA8551DFFEF000006A8C2 /* thread.c in Sources */,
+				5B4CA8711DFFF0BB0006A8C2 /* ProgressHUD.m in Sources */,
 				5B4CA81B1DFFEF000006A8C2 /* lossless_enc.c in Sources */,
 				5B4CA8431DFFEF000006A8C2 /* token.c in Sources */,
 				5B4CA80A1DFFEF000006A8C2 /* dec_clip_tables.c in Sources */,
@@ -1286,6 +1399,7 @@
 				5B4CA8481DFFEF000006A8C2 /* muxedit.c in Sources */,
 				5B4CA7F81DFFEF000006A8C2 /* vp8.c in Sources */,
 				5B4CA74D1DFFECE00006A8C2 /* MyMessageViewController.m in Sources */,
+				5B4CA8861DFFF1A10006A8C2 /* BaseModel.m in Sources */,
 				5B4CA81D1DFFEF000006A8C2 /* lossless_enc_mips_dsp_r2.c in Sources */,
 				5B4CA8651DFFEF330006A8C2 /* UITableView+FDTemplateLayoutCell.m in Sources */,
 				5B4CA80E1DFFEF000006A8C2 /* dec_sse2.c in Sources */,
@@ -1294,7 +1408,6 @@
 				5B4CA7471DFFEBBF0006A8C2 /* UIBarButtonItem+Extension.m in Sources */,
 				5B4CA8011DFFEF000006A8C2 /* argb.c in Sources */,
 				5B4CA8661DFFEF330006A8C2 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
-				5B4CA71C1DFFD0D60006A8C2 /* BaseTableViewController.m in Sources */,
 				5B4CA81E1DFFEF000006A8C2 /* lossless_enc_neon.c in Sources */,
 				5B4CA83E1DFFEF000006A8C2 /* picture_psnr.c in Sources */,
 				5B4CA8241DFFEF000006A8C2 /* rescaler.c in Sources */,
@@ -1312,6 +1425,7 @@
 				5B4CA8071DFFEF000006A8C2 /* cost_sse2.c in Sources */,
 				5B4CA8081DFFEF000006A8C2 /* cpu.c in Sources */,
 				5B4CA7421DFFD6D90006A8C2 /* UIView+Extension.m in Sources */,
+				5B4CA8781DFFF1580006A8C2 /* CommentsModel.m in Sources */,
 				5B4CA83B1DFFEF000006A8C2 /* near_lossless.c in Sources */,
 				5B4CA82D1DFFEF000006A8C2 /* yuv.c in Sources */,
 				1D142DB51DFEEE0000854B44 /* main.m in Sources */,
