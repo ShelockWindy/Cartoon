@@ -25,6 +25,9 @@
 		1D9A61351E003C5E00F17717 /* WordsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A61341E003C5E00F17717 /* WordsListView.m */; };
 		1D9A61391E003CAE00F17717 /* UserNotLoginTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A61381E003CAE00F17717 /* UserNotLoginTipView.m */; };
 		1D9A613B1E003CC300F17717 /* UserNotLoginTipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D9A613A1E003CC300F17717 /* UserNotLoginTipView.xib */; };
+		1D9A613F1E003D7200F17717 /* CartoonSummaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A613D1E003D7200F17717 /* CartoonSummaryCell.m */; };
+		1D9A61401E003D7200F17717 /* CartoonSummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D9A613E1E003D7200F17717 /* CartoonSummaryCell.xib */; };
+		1D9A61431E003DCF00F17717 /* wordsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A61421E003DCF00F17717 /* wordsModel.m */; };
 		5B4CA71F1DFFD0F60006A8C2 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA71E1DFFD0F60006A8C2 /* GuideViewController.m */; };
 		5B4CA7221DFFD10A0006A8C2 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7211DFFD10A0006A8C2 /* MainTabBarController.m */; };
 		5B4CA7251DFFD11A0006A8C2 /* MainTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7241DFFD11A0006A8C2 /* MainTabbar.m */; };
@@ -214,6 +217,11 @@
 		1D9A61371E003CAE00F17717 /* UserNotLoginTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserNotLoginTipView.h; sourceTree = "<group>"; };
 		1D9A61381E003CAE00F17717 /* UserNotLoginTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserNotLoginTipView.m; sourceTree = "<group>"; };
 		1D9A613A1E003CC300F17717 /* UserNotLoginTipView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserNotLoginTipView.xib; sourceTree = "<group>"; };
+		1D9A613C1E003D7200F17717 /* CartoonSummaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartoonSummaryCell.h; sourceTree = "<group>"; };
+		1D9A613D1E003D7200F17717 /* CartoonSummaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartoonSummaryCell.m; sourceTree = "<group>"; };
+		1D9A613E1E003D7200F17717 /* CartoonSummaryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartoonSummaryCell.xib; sourceTree = "<group>"; };
+		1D9A61411E003DCF00F17717 /* wordsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordsModel.h; sourceTree = "<group>"; };
+		1D9A61421E003DCF00F17717 /* wordsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordsModel.m; sourceTree = "<group>"; };
 		5B4CA71D1DFFD0F60006A8C2 /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
 		5B4CA71E1DFFD0F60006A8C2 /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
 		5B4CA7201DFFD10A0006A8C2 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
@@ -520,6 +528,8 @@
 		1D9A61281E003B7800F17717 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1D9A61411E003DCF00F17717 /* wordsModel.h */,
+				1D9A61421E003DCF00F17717 /* wordsModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -531,6 +541,9 @@
 				1D9A612A1E003B8F00F17717 /* UpdateView */,
 				1D9A61331E003C5E00F17717 /* WordsListView.h */,
 				1D9A61341E003C5E00F17717 /* WordsListView.m */,
+				1D9A613C1E003D7200F17717 /* CartoonSummaryCell.h */,
+				1D9A613D1E003D7200F17717 /* CartoonSummaryCell.m */,
+				1D9A613E1E003D7200F17717 /* CartoonSummaryCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1264,6 +1277,7 @@
 				5B4CA7F01DFFEF000006A8C2 /* README.mux in Resources */,
 				5B4CA7EF1DFFEF000006A8C2 /* README in Resources */,
 				5B4CA8671DFFEF330006A8C2 /* LICENSE in Resources */,
+				1D9A61401E003D7200F17717 /* CartoonSummaryCell.xib in Resources */,
 				1D142DC31DFEEE0000854B44 /* LaunchScreen.storyboard in Resources */,
 				5B4CA7441DFFD7950006A8C2 /* PersonalCenter.storyboard in Resources */,
 				1D142DC01DFEEE0000854B44 /* Assets.xcassets in Resources */,
@@ -1394,6 +1408,7 @@
 				5B4CA80C1DFFEF000006A8C2 /* dec_mips_dsp_r2.c in Sources */,
 				5B4CA7F11DFFEF000006A8C2 /* alpha.c in Sources */,
 				5B4CA8001DFFEF000006A8C2 /* alpha_processing_sse41.c in Sources */,
+				1D9A61431E003DCF00F17717 /* wordsModel.m in Sources */,
 				5B4CA82A1DFFEF000006A8C2 /* upsampling_mips_dsp_r2.c in Sources */,
 				5B4CA8121DFFEF000006A8C2 /* enc_mips32.c in Sources */,
 				5B4CA7F51DFFEF000006A8C2 /* io.c in Sources */,
@@ -1405,6 +1420,7 @@
 				5B4CA8281DFFEF000006A8C2 /* rescaler_sse2.c in Sources */,
 				5B4CA8811DFFF17E0006A8C2 /* BaseNavigationController.m in Sources */,
 				5B4CA73F1DFFD6A20006A8C2 /* DetailViewController.m in Sources */,
+				1D9A613F1E003D7200F17717 /* CartoonSummaryCell.m in Sources */,
 				5B4CA8441DFFEF000006A8C2 /* tree.c in Sources */,
 				5B4CA8521DFFEF000006A8C2 /* quant_levels_dec.c in Sources */,
 				5B4CA7281DFFD1600006A8C2 /* HomeViewController.m in Sources */,

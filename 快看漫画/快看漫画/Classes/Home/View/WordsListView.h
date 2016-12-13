@@ -10,4 +10,13 @@
 
 @interface WordsListView : UITableView
 
+
+@property (nonatomic,copy) NSString *urlString;
+
+@property (nonatomic) BOOL hasTimeline;     
+
+@property (nonatomic,copy) void (^NoDataCallBack)();
+
+@property (nonatomic,assign) BOOL hasNotBeenUpdated;
+
 @end
