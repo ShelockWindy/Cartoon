@@ -1,5 +1,5 @@
 //
-//  MainTabBarController.h
+//  PersonalViewController.h
 //  快看漫画
 //
 //  Created by 金亮齐 on 2016/12/13.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MainTabbar.h"
 
-@interface MainTabBarController : UITabBarController
-
-- (void)setHidesBottomBar:(BOOL)hidesBottomBar;
+@interface PersonalViewController : UITableViewController
 
 @end

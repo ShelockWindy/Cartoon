@@ -26,6 +26,10 @@
 		5B4CA72B1DFFD1730006A8C2 /* FindingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA72A1DFFD1730006A8C2 /* FindingsViewController.m */; };
 		5B4CA72E1DFFD1B00006A8C2 /* AuthorStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA72D1DFFD1B00006A8C2 /* AuthorStatusViewController.m */; };
 		5B4CA7341DFFD54E0006A8C2 /* UserInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7331DFFD54E0006A8C2 /* UserInfoManager.m */; };
+		5B4CA7371DFFD6250006A8C2 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7361DFFD6250006A8C2 /* PersonalViewController.m */; };
+		5B4CA73F1DFFD6A20006A8C2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA73E1DFFD6A20006A8C2 /* DetailViewController.m */; };
+		5B4CA7421DFFD6D90006A8C2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7411DFFD6D90006A8C2 /* UIView+Extension.m */; };
+		5B4CA7441DFFD7950006A8C2 /* PersonalCenter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4CA7431DFFD7950006A8C2 /* PersonalCenter.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +87,13 @@
 		5B4CA72F1DFFD20C0006A8C2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		5B4CA7321DFFD54E0006A8C2 /* UserInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoManager.h; sourceTree = "<group>"; };
 		5B4CA7331DFFD54E0006A8C2 /* UserInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoManager.m; sourceTree = "<group>"; };
+		5B4CA7351DFFD6250006A8C2 /* PersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		5B4CA7361DFFD6250006A8C2 /* PersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		5B4CA73D1DFFD6A20006A8C2 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5B4CA73E1DFFD6A20006A8C2 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5B4CA7401DFFD6D90006A8C2 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		5B4CA7411DFFD6D90006A8C2 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		5B4CA7431DFFD7950006A8C2 /* PersonalCenter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PersonalCenter.storyboard; sourceTree = "<group>"; };
 		5FF7DC4C0FE3CCE023E50BAD /* Pods-快看漫画.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快看漫画.release.xcconfig"; path = "Pods/Target Support Files/Pods-快看漫画/Pods-快看漫画.release.xcconfig"; sourceTree = "<group>"; };
 		7F52C35FF969E4E51D5E9188 /* libPods-快看漫画.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-快看漫画.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03D1493421763BA050EF452 /* Pods-快看漫画.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快看漫画.debug.xcconfig"; path = "Pods/Target Support Files/Pods-快看漫画/Pods-快看漫画.debug.xcconfig"; sourceTree = "<group>"; };
@@ -212,6 +223,8 @@
 		5B4CA7301DFFD39A0006A8C2 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				5B4CA7401DFFD6D90006A8C2 /* UIView+Extension.h */,
+				5B4CA7411DFFD6D90006A8C2 /* UIView+Extension.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -225,9 +238,51 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		5B4CA7381DFFD68F0006A8C2 /* PublicView */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CA7391DFFD68F0006A8C2 /* Detail(漫画详情) */,
+			);
+			path = PublicView;
+			sourceTree = "<group>";
+		};
+		5B4CA7391DFFD68F0006A8C2 /* Detail(漫画详情) */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CA73A1DFFD68F0006A8C2 /* Controller */,
+				5B4CA73B1DFFD68F0006A8C2 /* Model */,
+				5B4CA73C1DFFD68F0006A8C2 /* View */,
+			);
+			path = "Detail(漫画详情)";
+			sourceTree = "<group>";
+		};
+		5B4CA73A1DFFD68F0006A8C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CA73D1DFFD6A20006A8C2 /* DetailViewController.h */,
+				5B4CA73E1DFFD6A20006A8C2 /* DetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5B4CA73B1DFFD68F0006A8C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B4CA73C1DFFD68F0006A8C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		5B7FE27A1DFF9338004A7C0E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5B4CA7381DFFD68F0006A8C2 /* PublicView */,
 				5B4CA7311DFFD3A80006A8C2 /* Managers */,
 				5B4CA7301DFFD39A0006A8C2 /* Extension */,
 				5B4CA7121DFFD01D0006A8C2 /* Resource */,
@@ -372,6 +427,7 @@
 		5B7FE28B1DFF9379004A7C0E /* Personal */ = {
 			isa = PBXGroup;
 			children = (
+				5B4CA7431DFFD7950006A8C2 /* PersonalCenter.storyboard */,
 				5B7FE28C1DFF9379004A7C0E /* Controller */,
 				5B7FE28D1DFF9379004A7C0E /* Model */,
 				5B7FE28E1DFF9379004A7C0E /* View */,
@@ -382,6 +438,8 @@
 		5B7FE28C1DFF9379004A7C0E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5B4CA7351DFFD6250006A8C2 /* PersonalViewController.h */,
+				5B4CA7361DFFD6250006A8C2 /* PersonalViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -516,6 +574,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D142DC31DFEEE0000854B44 /* LaunchScreen.storyboard in Resources */,
+				5B4CA7441DFFD7950006A8C2 /* PersonalCenter.storyboard in Resources */,
 				1D142DC01DFEEE0000854B44 /* Assets.xcassets in Resources */,
 				1D142DBE1DFEEE0000854B44 /* Main.storyboard in Resources */,
 			);
@@ -595,13 +654,16 @@
 				5B4CA7161DFFD0950006A8C2 /* BaseNavigationController.m in Sources */,
 				5B4CA71F1DFFD0F60006A8C2 /* GuideViewController.m in Sources */,
 				5B4CA7191DFFD0C20006A8C2 /* BaseViewController.m in Sources */,
+				5B4CA73F1DFFD6A20006A8C2 /* DetailViewController.m in Sources */,
 				5B4CA7281DFFD1600006A8C2 /* HomeViewController.m in Sources */,
 				1D142DBB1DFEEE0000854B44 /* ViewController.m in Sources */,
 				1D142DB81DFEEE0000854B44 /* AppDelegate.m in Sources */,
+				5B4CA7371DFFD6250006A8C2 /* PersonalViewController.m in Sources */,
 				5B4CA7251DFFD11A0006A8C2 /* MainTabbar.m in Sources */,
 				5B4CA71C1DFFD0D60006A8C2 /* BaseTableViewController.m in Sources */,
 				5B4CA72E1DFFD1B00006A8C2 /* AuthorStatusViewController.m in Sources */,
 				5B4CA7221DFFD10A0006A8C2 /* MainTabBarController.m in Sources */,
+				5B4CA7421DFFD6D90006A8C2 /* UIView+Extension.m in Sources */,
 				1D142DB51DFEEE0000854B44 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

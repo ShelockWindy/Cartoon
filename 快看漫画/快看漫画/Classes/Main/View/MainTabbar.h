@@ -10,4 +10,12 @@
 
 @interface MainTabbar : UIView
 
+@property (nonatomic,assign) NSInteger selectItem;
+
+@property (nonatomic,readonly) NSInteger cuurentSelectIndex;
+
+@property (nonatomic,copy) void (^selectAtIndex)(UIButton *btn,NSInteger index);
+
+- (void)addItemWithImageNames:(NSArray *)names;
+
 @end
