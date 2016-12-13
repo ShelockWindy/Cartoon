@@ -10,5 +10,4 @@ pod ‘MJExtension’
 pod ‘JGProgressHUD’
 pod ‘UITableView+FDTemplateLayoutCell’
 pod ‘UMengAnalytics’
-pod 'iOS-WebP', '0.5'
 end
