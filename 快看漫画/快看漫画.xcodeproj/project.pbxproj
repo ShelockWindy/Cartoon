@@ -19,6 +19,12 @@
 		1D9A611E1E00383700F17717 /* registerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A611C1E00383700F17717 /* registerViewController.m */; };
 		1D9A61211E0038C400F17717 /* registerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D9A61201E0038C400F17717 /* registerViewController.xib */; };
 		1D9A61241E0039A200F17717 /* DateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A61231E0039A200F17717 /* DateManager.m */; };
+		1D9A61271E003B1C00F17717 /* navBarTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A61261E003B1C00F17717 /* navBarTitleView.m */; };
+		1D9A612D1E003BA000F17717 /* updateCartoonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A612C1E003BA000F17717 /* updateCartoonView.m */; };
+		1D9A61321E003C2800F17717 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A61311E003C2800F17717 /* SearchViewController.m */; };
+		1D9A61351E003C5E00F17717 /* WordsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A61341E003C5E00F17717 /* WordsListView.m */; };
+		1D9A61391E003CAE00F17717 /* UserNotLoginTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A61381E003CAE00F17717 /* UserNotLoginTipView.m */; };
+		1D9A613B1E003CC300F17717 /* UserNotLoginTipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D9A613A1E003CC300F17717 /* UserNotLoginTipView.xib */; };
 		5B4CA71F1DFFD0F60006A8C2 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA71E1DFFD0F60006A8C2 /* GuideViewController.m */; };
 		5B4CA7221DFFD10A0006A8C2 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7211DFFD10A0006A8C2 /* MainTabBarController.m */; };
 		5B4CA7251DFFD11A0006A8C2 /* MainTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7241DFFD11A0006A8C2 /* MainTabbar.m */; };
@@ -197,6 +203,17 @@
 		1D9A61201E0038C400F17717 /* registerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = registerViewController.xib; sourceTree = "<group>"; };
 		1D9A61221E0039A200F17717 /* DateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateManager.h; sourceTree = "<group>"; };
 		1D9A61231E0039A200F17717 /* DateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateManager.m; sourceTree = "<group>"; };
+		1D9A61251E003B1C00F17717 /* navBarTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = navBarTitleView.h; sourceTree = "<group>"; };
+		1D9A61261E003B1C00F17717 /* navBarTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = navBarTitleView.m; sourceTree = "<group>"; };
+		1D9A612B1E003BA000F17717 /* updateCartoonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = updateCartoonView.h; sourceTree = "<group>"; };
+		1D9A612C1E003BA000F17717 /* updateCartoonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = updateCartoonView.m; sourceTree = "<group>"; };
+		1D9A61301E003C2800F17717 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		1D9A61311E003C2800F17717 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		1D9A61331E003C5E00F17717 /* WordsListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordsListView.h; sourceTree = "<group>"; };
+		1D9A61341E003C5E00F17717 /* WordsListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordsListView.m; sourceTree = "<group>"; };
+		1D9A61371E003CAE00F17717 /* UserNotLoginTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserNotLoginTipView.h; sourceTree = "<group>"; };
+		1D9A61381E003CAE00F17717 /* UserNotLoginTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserNotLoginTipView.m; sourceTree = "<group>"; };
+		1D9A613A1E003CC300F17717 /* UserNotLoginTipView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserNotLoginTipView.xib; sourceTree = "<group>"; };
 		5B4CA71D1DFFD0F60006A8C2 /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
 		5B4CA71E1DFFD0F60006A8C2 /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
 		5B4CA7201DFFD10A0006A8C2 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
@@ -500,6 +517,60 @@
 			path = "快看漫画UITests";
 			sourceTree = "<group>";
 		};
+		1D9A61281E003B7800F17717 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D9A61291E003B7800F17717 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D9A61361E003C9300F17717 /* UsersConcerned */,
+				1D9A612A1E003B8F00F17717 /* UpdateView */,
+				1D9A61331E003C5E00F17717 /* WordsListView.h */,
+				1D9A61341E003C5E00F17717 /* WordsListView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D9A612A1E003B8F00F17717 /* UpdateView */ = {
+			isa = PBXGroup;
+			children = (
+				1D9A612B1E003BA000F17717 /* updateCartoonView.h */,
+				1D9A612C1E003BA000F17717 /* updateCartoonView.m */,
+			);
+			path = UpdateView;
+			sourceTree = "<group>";
+		};
+		1D9A612E1E003C0F00F17717 /* SearchPage(搜索) */ = {
+			isa = PBXGroup;
+			children = (
+				1D9A612F1E003C0F00F17717 /* Controller */,
+			);
+			path = "SearchPage(搜索)";
+			sourceTree = "<group>";
+		};
+		1D9A612F1E003C0F00F17717 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D9A61301E003C2800F17717 /* SearchViewController.h */,
+				1D9A61311E003C2800F17717 /* SearchViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1D9A61361E003C9300F17717 /* UsersConcerned */ = {
+			isa = PBXGroup;
+			children = (
+				1D9A61371E003CAE00F17717 /* UserNotLoginTipView.h */,
+				1D9A61381E003CAE00F17717 /* UserNotLoginTipView.m */,
+				1D9A613A1E003CC300F17717 /* UserNotLoginTipView.xib */,
+			);
+			path = UsersConcerned;
+			sourceTree = "<group>";
+		};
 		4002352661715F849A79C655 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -556,6 +627,7 @@
 		5B4CA7381DFFD68F0006A8C2 /* PublicView */ = {
 			isa = PBXGroup;
 			children = (
+				1D9A612E1E003C0F00F17717 /* SearchPage(搜索) */,
 				5B4CA8871DFFF1EC0006A8C2 /* Login */,
 				5B4CA8721DFFF12A0006A8C2 /* CommentDetail(评论详情) */,
 				5B4CA7391DFFD68F0006A8C2 /* Detail(漫画详情) */,
@@ -567,8 +639,6 @@
 			isa = PBXGroup;
 			children = (
 				5B4CA73A1DFFD68F0006A8C2 /* Controller */,
-				5B4CA73B1DFFD68F0006A8C2 /* Model */,
-				5B4CA73C1DFFD68F0006A8C2 /* View */,
 			);
 			path = "Detail(漫画详情)";
 			sourceTree = "<group>";
@@ -580,20 +650,6 @@
 				5B4CA73E1DFFD6A20006A8C2 /* DetailViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		5B4CA73B1DFFD68F0006A8C2 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		5B4CA73C1DFFD68F0006A8C2 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		5B4CA7541DFFEF000006A8C2 /* libwebp */ = {
@@ -851,6 +907,8 @@
 				5B4CA86E1DFFF0AB0006A8C2 /* DCPicscollView */,
 				5B4CA86F1DFFF0BB0006A8C2 /* ProgressHUD.h */,
 				5B4CA8701DFFF0BB0006A8C2 /* ProgressHUD.m */,
+				1D9A61251E003B1C00F17717 /* navBarTitleView.h */,
+				1D9A61261E003B1C00F17717 /* navBarTitleView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -865,18 +923,9 @@
 		5B4CA8721DFFF12A0006A8C2 /* CommentDetail(评论详情) */ = {
 			isa = PBXGroup;
 			children = (
-				5B4CA8731DFFF12A0006A8C2 /* Controller */,
 				5B4CA8741DFFF12A0006A8C2 /* Model */,
-				5B4CA8751DFFF12A0006A8C2 /* view */,
 			);
 			path = "CommentDetail(评论详情)";
-			sourceTree = "<group>";
-		};
-		5B4CA8731DFFF12A0006A8C2 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		5B4CA8741DFFF12A0006A8C2 /* Model */ = {
@@ -886,13 +935,6 @@
 				5B4CA8771DFFF1580006A8C2 /* CommentsModel.m */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		5B4CA8751DFFF12A0006A8C2 /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
 			sourceTree = "<group>";
 		};
 		5B4CA8791DFFF17E0006A8C2 /* Controller */ = {
@@ -1046,9 +1088,9 @@
 		5B7FE2871DFF9379004A7C0E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				1D9A61281E003B7800F17717 /* Model */,
+				1D9A61291E003B7800F17717 /* View */,
 				5B7FE2881DFF9379004A7C0E /* Controller */,
-				5B7FE2891DFF9379004A7C0E /* Model */,
-				5B7FE28A1DFF9379004A7C0E /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -1060,20 +1102,6 @@
 				5B4CA7271DFFD1600006A8C2 /* HomeViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		5B7FE2891DFF9379004A7C0E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		5B7FE28A1DFF9379004A7C0E /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		5B7FE28B1DFF9379004A7C0E /* Personal */ = {
@@ -1243,6 +1271,7 @@
 				1D9A61211E0038C400F17717 /* registerViewController.xib in Resources */,
 				1D142DBE1DFEEE0000854B44 /* Main.storyboard in Resources */,
 				5B4CA88C1DFFF1FD0006A8C2 /* LoginViewController.xib in Resources */,
+				1D9A613B1E003CC300F17717 /* UserNotLoginTipView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1315,9 +1344,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D9A61271E003B1C00F17717 /* navBarTitleView.m in Sources */,
 				5B4CA8311DFFEF000006A8C2 /* alpha.c in Sources */,
 				5B4CA7F41DFFEF000006A8C2 /* idec.c in Sources */,
 				5B4CA8401DFFEF000006A8C2 /* picture_tools.c in Sources */,
+				1D9A612D1E003BA000F17717 /* updateCartoonView.m in Sources */,
 				5B4CA72B1DFFD1730006A8C2 /* FindingsViewController.m in Sources */,
 				5B4CA7341DFFD54E0006A8C2 /* UserInfoManager.m in Sources */,
 				5B4CA8361DFFEF000006A8C2 /* delta_palettization.c in Sources */,
@@ -1377,6 +1408,7 @@
 				5B4CA8441DFFEF000006A8C2 /* tree.c in Sources */,
 				5B4CA8521DFFEF000006A8C2 /* quant_levels_dec.c in Sources */,
 				5B4CA7281DFFD1600006A8C2 /* HomeViewController.m in Sources */,
+				1D9A61321E003C2800F17717 /* SearchViewController.m in Sources */,
 				5B4CA84C1DFFEF000006A8C2 /* bit_writer.c in Sources */,
 				5B4CA8531DFFEF000006A8C2 /* random.c in Sources */,
 				1D9A611E1E00383700F17717 /* registerViewController.m in Sources */,
@@ -1404,6 +1436,7 @@
 				5B4CA8631DFFEF330006A8C2 /* UITableView+FDIndexPathHeightCache.m in Sources */,
 				5B4CA7531DFFECF80006A8C2 /* MyCollectionViewController.m in Sources */,
 				5B4CA8421DFFEF000006A8C2 /* syntax.c in Sources */,
+				1D9A61391E003CAE00F17717 /* UserNotLoginTipView.m in Sources */,
 				5B4CA7371DFFD6250006A8C2 /* PersonalViewController.m in Sources */,
 				5B4CA8061DFFEF000006A8C2 /* cost_mips_dsp_r2.c in Sources */,
 				5B4CA8211DFFEF000006A8C2 /* lossless_mips_dsp_r2.c in Sources */,
@@ -1428,6 +1461,7 @@
 				5B4CA8301DFFEF000006A8C2 /* yuv_sse2.c in Sources */,
 				5B4CA81F1DFFEF000006A8C2 /* lossless_enc_sse2.c in Sources */,
 				5B4CA7471DFFEBBF0006A8C2 /* UIBarButtonItem+Extension.m in Sources */,
+				1D9A61351E003C5E00F17717 /* WordsListView.m in Sources */,
 				5B4CA8011DFFEF000006A8C2 /* argb.c in Sources */,
 				5B4CA8661DFFEF330006A8C2 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
 				5B4CA81E1DFFEF000006A8C2 /* lossless_enc_neon.c in Sources */,

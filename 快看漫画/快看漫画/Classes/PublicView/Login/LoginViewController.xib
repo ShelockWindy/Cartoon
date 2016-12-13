@@ -7,7 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
             <connections>
-                <outlet property="view" destination="Fpj-Sw-y80" id="rXi-CZ-oXs"/>
+                <outlet property="view" destination="Fpj-Sw-y80" id="ypd-qZ-2Dz"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
