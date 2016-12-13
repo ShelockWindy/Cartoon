@@ -7,9 +7,17 @@
 //
 
 #import "SettingTableViewController.h"
+#import "UserInfoManager.h"
+#import "MainTabBarController.h"
+#import <SDImageCache.h>
+#import "ProgressHUD.h"
 
-@interface SettingTableViewController ()
 
+@interface SettingTableViewController () <UIAlertViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UIButton *LogoutBtn;
+
+@property (weak, nonatomic) IBOutlet UILabel *cacheSizeText;
 @end
 
 @implementation SettingTableViewController
@@ -17,82 +25,64 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    [self reloadCacheSize];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-#pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
-}
-
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+- (void)reloadCacheSize {
     
-    // Configure the cell...
+    [[SDImageCache sharedImageCache] calculateSizeWithCompletionBlock:^(NSUInteger fileCount, NSUInteger totalSize) {
+        NSInteger mb = totalSize / 1024 / 1024;
+        self.cacheSizeText.text = [NSString stringWithFormat:@"%zdMB",mb];
+    }];
     
-    return cell;
 }
-*/
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    MainTabBarController *main = (MainTabBarController *)self.tabBarController;
+    
+    [main setHidesBottomBar:YES];
+    [self.navigationController setNavigationBarHidden:NO];
+    self.LogoutBtn.hidden = ![UserInfoManager share].hasLogin;
+    
 }
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
+- (IBAction)back:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
 }
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
+- (IBAction)Logout:(id)sender {
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"注销" message:@"确定要注销登录吗?" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
+    
+    [alert show];
+    
 }
-*/
 
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if (indexPath.section == 1 && indexPath.row == 0) {
+        
+        weakself(self);
+        
+        dissmissCallBack dissmiss = [ProgressHUD showProgressWithStatus:@"清理中" inView:self.view];
+        [[SDImageCache sharedImageCache] clearDiskOnCompletion:^{
+            dissmiss();
+            [weakSelf reloadCacheSize];
+            [ProgressHUD showSuccessWithStatus:@"清理完毕" inView:weakSelf.view];
+            
+        }];
+    }
 }
-*/
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    
+    if (buttonIndex == 1) {
+        [[UserInfoManager share] logoutUserInfo];
+        [self.navigationController popViewControllerAnimated:YES];
+    }
+    
 }
-*/
 
 @end
