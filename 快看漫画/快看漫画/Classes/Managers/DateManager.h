@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DateManager : NSObject
-
 //@"yyyy-MM-dd HH:mm:ss.ff";
 
 static NSString * const defautFormat = @"yyyy-MM-dd";
@@ -34,5 +32,6 @@ static NSString * const defautFormat = @"yyyy-MM-dd";
 - (NSString *)conversionTimeStampVer2:(NSNumber *)timeStamp;
 
 + (instancetype)share;
+
 
 @end
