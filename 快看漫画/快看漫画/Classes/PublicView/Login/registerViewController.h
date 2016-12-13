@@ -1,5 +1,5 @@
 //
-//  LoginViewController.h
+//  registerViewController.h
 //  快看漫画
 //
 //  Created by 金亮齐 on 2016/12/13.
@@ -8,11 +8,6 @@
 
 #import "BaseViewController.h"
 
-@class UserInfoManager;
-
-@interface LoginViewController : BaseViewController
-
-+ (void)show;
-
+@interface registerViewController : BaseViewController
 
 @end

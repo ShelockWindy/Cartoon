@@ -8,6 +8,5 @@ target '快看漫画' do
  pod ‘Masonry’
  pod ‘MJExtension’
  pod ‘JGProgressHUD’
-# pod ‘UITableView+FDTemplateLayoutCell’
  pod ‘UMengAnalytics’
 end
