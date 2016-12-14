@@ -165,7 +165,7 @@
 		5B4CA8661DFFEF330006A8C2 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA8601DFFEF330006A8C2 /* UITableView+FDTemplateLayoutCellDebug.m */; };
 		5B4CA8671DFFEF330006A8C2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5B4CA8611DFFEF330006A8C2 /* LICENSE */; };
 		5B4CA8681DFFEF330006A8C2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA8621DFFEF330006A8C2 /* README.md */; };
-		5B4CA86B1DFFF0590006A8C2 /* NetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA86A1DFFF0590006A8C2 /* NetWorkManager.m */; };
+		5B4CA86B1DFFF0590006A8C2 /* NetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA86A1DFFF0590006A8C2 /* NetWorkManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5B4CA8711DFFF0BB0006A8C2 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA8701DFFF0BB0006A8C2 /* ProgressHUD.m */; };
 		5B4CA8781DFFF1580006A8C2 /* CommentsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA8771DFFF1580006A8C2 /* CommentsModel.m */; };
 		5B4CA8811DFFF17E0006A8C2 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA87B1DFFF17E0006A8C2 /* BaseNavigationController.m */; };
@@ -1711,6 +1711,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = "快看漫画/PrefixHeader.pch";
 				INFOPLIST_FILE = "快看漫画/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1725,6 +1727,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = "快看漫画/PrefixHeader.pch";
 				INFOPLIST_FILE = "快看漫画/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
