@@ -23,6 +23,8 @@
 		1D5FEECD1E01907600C81337 /* topicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FEECC1E01907600C81337 /* topicModel.m */; };
 		1D5FEED01E01908300C81337 /* userModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FEECF1E01908300C81337 /* userModel.m */; };
 		1D5FEED71E01910A00C81337 /* likeCountView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FEED61E01910A00C81337 /* likeCountView.m */; };
+		1D5FEEDB1E01921500C81337 /* CommentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FEEDA1E01921500C81337 /* CommentDetailViewController.m */; };
+		1D5FEEDE1E01926900C81337 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FEEDD1E01926900C81337 /* UIColor+Extension.m */; };
 		1D9A611E1E00383700F17717 /* registerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A611C1E00383700F17717 /* registerViewController.m */; };
 		1D9A61211E0038C400F17717 /* registerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D9A61201E0038C400F17717 /* registerViewController.xib */; };
 		1D9A61241E0039A200F17717 /* DateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A61231E0039A200F17717 /* DateManager.m */; };
@@ -223,6 +225,10 @@
 		1D5FEECF1E01908300C81337 /* userModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userModel.m; sourceTree = "<group>"; };
 		1D5FEED51E01910A00C81337 /* likeCountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = likeCountView.h; sourceTree = "<group>"; };
 		1D5FEED61E01910A00C81337 /* likeCountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = likeCountView.m; sourceTree = "<group>"; };
+		1D5FEED91E01921500C81337 /* CommentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentDetailViewController.h; sourceTree = "<group>"; };
+		1D5FEEDA1E01921500C81337 /* CommentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentDetailViewController.m; sourceTree = "<group>"; };
+		1D5FEEDC1E01926900C81337 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		1D5FEEDD1E01926900C81337 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		1D9A611B1E00383700F17717 /* registerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registerViewController.h; sourceTree = "<group>"; };
 		1D9A611C1E00383700F17717 /* registerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registerViewController.m; sourceTree = "<group>"; };
 		1D9A61201E0038C400F17717 /* registerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = registerViewController.xib; sourceTree = "<group>"; };
@@ -556,6 +562,15 @@
 			path = DCPicscollView;
 			sourceTree = "<group>";
 		};
+		1D5FEED81E01920200C81337 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D5FEED91E01921500C81337 /* CommentDetailViewController.h */,
+				1D5FEEDA1E01921500C81337 /* CommentDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		1D9A61281E003B7800F17717 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -661,6 +676,8 @@
 				5B4CA7461DFFEBBF0006A8C2 /* UIBarButtonItem+Extension.m */,
 				5B4CA88D1DFFF3010006A8C2 /* NSString+Extension.h */,
 				5B4CA88E1DFFF3010006A8C2 /* NSString+Extension.m */,
+				1D5FEEDC1E01926900C81337 /* UIColor+Extension.h */,
+				1D5FEEDD1E01926900C81337 /* UIColor+Extension.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -976,6 +993,7 @@
 		5B4CA8721DFFF12A0006A8C2 /* CommentDetail(评论详情) */ = {
 			isa = PBXGroup;
 			children = (
+				1D5FEED81E01920200C81337 /* Controller */,
 				5B4CA8741DFFF12A0006A8C2 /* Model */,
 			);
 			path = "CommentDetail(评论详情)";
@@ -1456,6 +1474,7 @@
 				5B4CA8121DFFEF000006A8C2 /* enc_mips32.c in Sources */,
 				1D5FEECD1E01907600C81337 /* topicModel.m in Sources */,
 				5B4CA7F51DFFEF000006A8C2 /* io.c in Sources */,
+				1D5FEEDE1E01926900C81337 /* UIColor+Extension.m in Sources */,
 				1D5FEEC71E018EB300C81337 /* ListView.m in Sources */,
 				5B4CA84E1DFFEF000006A8C2 /* filters.c in Sources */,
 				5B4CA8491DFFEF000006A8C2 /* muxinternal.c in Sources */,
@@ -1467,6 +1486,7 @@
 				5B4CA73F1DFFD6A20006A8C2 /* DetailViewController.m in Sources */,
 				1D9A613F1E003D7200F17717 /* CartoonSummaryCell.m in Sources */,
 				5B4CA8441DFFEF000006A8C2 /* tree.c in Sources */,
+				1D5FEEDB1E01921500C81337 /* CommentDetailViewController.m in Sources */,
 				5B4CA8521DFFEF000006A8C2 /* quant_levels_dec.c in Sources */,
 				5B4CA7281DFFD1600006A8C2 /* HomeViewController.m in Sources */,
 				1D9A61321E003C2800F17717 /* SearchViewController.m in Sources */,

@@ -14,7 +14,7 @@
 #import "CommentDetailViewController.h"
 #import "UIView+Extension.h"
 #import <Masonry.h>
-#import "CommonMacro.h"
+
 #import "UIColor+Extension.h"
 
 
