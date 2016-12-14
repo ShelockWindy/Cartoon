@@ -6,7 +6,7 @@
 //  Copyright © 2016年 醉看红尘这场梦. All rights reserved.
 //
 
-#import "BaseModel.h"
+#import <Foundation/Foundation.h>
 #import "BaseModel.h"
 #import "topicModel.h"
 //

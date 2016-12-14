@@ -10,4 +10,6 @@
 
 @interface DetailViewController : BaseViewController
 
+@property (nonatomic,copy) NSNumber *cartoonId;
+
 @end

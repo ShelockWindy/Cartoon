@@ -7,7 +7,16 @@
 //
 
 #import "BaseViewController.h"
+#import "UserInfoManager.h"
 
 @interface CommentDetailViewController : BaseViewController
+
+@property (nonatomic,copy)   NSNumber *dataRequstID;
+
+@property (nonatomic,assign) commentDataType dataType;
+
++ (instancetype)showInVc:(UIViewController *)vc
+        withDataRequstID:(NSNumber *)ID
+            WithDataType:(commentDataType)dataType;
 
 @end

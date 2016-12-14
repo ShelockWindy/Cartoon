@@ -10,4 +10,9 @@
 
 @implementation SummaryModel
 
++ (NSArray<NSString *> *)setupDataFieldsIsModelArray:(BOOL *)isModelArray {
+    *isModelArray = YES;
+    return @[@"data",@"comics"];
+}
+
 @end
