@@ -7,15 +7,14 @@
 //
 
 #import "WordsListView.h"
-
 #import "CartoonSummaryCell.h"
-
 #import <MJRefresh.h>
 #import "UIView+Extension.h"
 #import "DetailViewController.h"
 #import "wordsModel.h"
 #import "DateManager.h"
 #import "HomeViewController.h"
+#import "SummaryModel.h"
 
 @interface WordsListView ()<UITableViewDataSource,UITableViewDelegate>
 
