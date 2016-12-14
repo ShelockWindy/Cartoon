@@ -16,6 +16,9 @@
 		1D142DC31DFEEE0000854B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D142DC11DFEEE0000854B44 /* LaunchScreen.storyboard */; };
 		1D142DCE1DFEEE0000854B44 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DCD1DFEEE0000854B44 /* ____Tests.m */; };
 		1D142DD91DFEEE0000854B44 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DD81DFEEE0000854B44 /* ____UITests.m */; };
+		1D5FEEC11E018E4F00C81337 /* updateCartoonListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FEEC01E018E4F00C81337 /* updateCartoonListView.m */; };
+		1D5FEEC41E018E6900C81337 /* SummaryListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FEEC31E018E6900C81337 /* SummaryListItem.m */; };
+		1D5FEEC71E018EB300C81337 /* ListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FEEC61E018EB300C81337 /* ListView.m */; };
 		1D9A611E1E00383700F17717 /* registerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A611C1E00383700F17717 /* registerViewController.m */; };
 		1D9A61211E0038C400F17717 /* registerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D9A61201E0038C400F17717 /* registerViewController.xib */; };
 		1D9A61241E0039A200F17717 /* DateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A61231E0039A200F17717 /* DateManager.m */; };
@@ -202,6 +205,12 @@
 		1D142DD41DFEEE0000854B44 /* 快看漫画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "快看漫画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D142DD81DFEEE0000854B44 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		1D142DDA1DFEEE0000854B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5FEEBF1E018E4F00C81337 /* updateCartoonListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = updateCartoonListView.h; sourceTree = "<group>"; };
+		1D5FEEC01E018E4F00C81337 /* updateCartoonListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = updateCartoonListView.m; sourceTree = "<group>"; };
+		1D5FEEC21E018E6900C81337 /* SummaryListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryListItem.h; sourceTree = "<group>"; };
+		1D5FEEC31E018E6900C81337 /* SummaryListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryListItem.m; sourceTree = "<group>"; };
+		1D5FEEC51E018EB300C81337 /* ListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListView.h; sourceTree = "<group>"; };
+		1D5FEEC61E018EB300C81337 /* ListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListView.m; sourceTree = "<group>"; };
 		1D9A611B1E00383700F17717 /* registerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registerViewController.h; sourceTree = "<group>"; };
 		1D9A611C1E00383700F17717 /* registerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registerViewController.m; sourceTree = "<group>"; };
 		1D9A61201E0038C400F17717 /* registerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = registerViewController.xib; sourceTree = "<group>"; };
@@ -556,6 +565,10 @@
 			children = (
 				1D9A612B1E003BA000F17717 /* updateCartoonView.h */,
 				1D9A612C1E003BA000F17717 /* updateCartoonView.m */,
+				1D5FEEBF1E018E4F00C81337 /* updateCartoonListView.h */,
+				1D5FEEC01E018E4F00C81337 /* updateCartoonListView.m */,
+				1D5FEEC21E018E6900C81337 /* SummaryListItem.h */,
+				1D5FEEC31E018E6900C81337 /* SummaryListItem.m */,
 			);
 			path = UpdateView;
 			sourceTree = "<group>";
@@ -927,6 +940,8 @@
 				5B4CA8701DFFF0BB0006A8C2 /* ProgressHUD.m */,
 				1D9A61251E003B1C00F17717 /* navBarTitleView.h */,
 				1D9A61261E003B1C00F17717 /* navBarTitleView.m */,
+				1D5FEEC51E018EB300C81337 /* ListView.h */,
+				1D5FEEC61E018EB300C81337 /* ListView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1418,6 +1433,7 @@
 				5B4CA82A1DFFEF000006A8C2 /* upsampling_mips_dsp_r2.c in Sources */,
 				5B4CA8121DFFEF000006A8C2 /* enc_mips32.c in Sources */,
 				5B4CA7F51DFFEF000006A8C2 /* io.c in Sources */,
+				1D5FEEC71E018EB300C81337 /* ListView.m in Sources */,
 				5B4CA84E1DFFEF000006A8C2 /* filters.c in Sources */,
 				5B4CA8491DFFEF000006A8C2 /* muxinternal.c in Sources */,
 				5B4CA80F1DFFEF000006A8C2 /* dec_sse41.c in Sources */,
@@ -1472,6 +1488,7 @@
 				5B4CA8431DFFEF000006A8C2 /* token.c in Sources */,
 				5B4CA80A1DFFEF000006A8C2 /* dec_clip_tables.c in Sources */,
 				5B4CA8051DFFEF000006A8C2 /* cost_mips32.c in Sources */,
+				1D5FEEC11E018E4F00C81337 /* updateCartoonListView.m in Sources */,
 				5B4CA8181DFFEF000006A8C2 /* filters_mips_dsp_r2.c in Sources */,
 				5B4CA8481DFFEF000006A8C2 /* muxedit.c in Sources */,
 				5B4CA7F81DFFEF000006A8C2 /* vp8.c in Sources */,
@@ -1491,6 +1508,7 @@
 				5B4CA8241DFFEF000006A8C2 /* rescaler.c in Sources */,
 				5B4CA7FD1DFFEF000006A8C2 /* alpha_processing.c in Sources */,
 				5B4CA8641DFFEF330006A8C2 /* UITableView+FDKeyedHeightCache.m in Sources */,
+				1D5FEEC41E018E6900C81337 /* SummaryListItem.m in Sources */,
 				5B4CA8251DFFEF000006A8C2 /* rescaler_mips32.c in Sources */,
 				5B4CA8171DFFEF000006A8C2 /* filters.c in Sources */,
 				5B4CA8291DFFEF000006A8C2 /* upsampling.c in Sources */,
