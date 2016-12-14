@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class SummaryModel;
+
 @interface CartoonSummaryCell : UITableViewCell
+
+@property (nonatomic,strong) SummaryModel *model;
+
++ (instancetype)cartoonSummaryCell;
 
 @end

@@ -7,7 +7,18 @@
 //
 
 #import "wordsModel.h"
+#import "SummaryModel.h"
 
 @implementation wordsModel
+
+
++ (NSDictionary *)mj_objectClassInArray {
+    return @{@"comics":[SummaryModel class]};
+}
+
++ (NSArray<NSString *> *)setupDataFieldsIsModelArray:(BOOL *)isModelArray {
+    return @[@"data"];
+}
+
 
 @end

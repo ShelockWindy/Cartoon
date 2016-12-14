@@ -19,6 +19,10 @@
 		1D5FEEC11E018E4F00C81337 /* updateCartoonListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FEEC01E018E4F00C81337 /* updateCartoonListView.m */; };
 		1D5FEEC41E018E6900C81337 /* SummaryListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FEEC31E018E6900C81337 /* SummaryListItem.m */; };
 		1D5FEEC71E018EB300C81337 /* ListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FEEC61E018EB300C81337 /* ListView.m */; };
+		1D5FEECA1E01901E00C81337 /* SummaryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FEEC91E01901E00C81337 /* SummaryModel.m */; };
+		1D5FEECD1E01907600C81337 /* topicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FEECC1E01907600C81337 /* topicModel.m */; };
+		1D5FEED01E01908300C81337 /* userModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FEECF1E01908300C81337 /* userModel.m */; };
+		1D5FEED71E01910A00C81337 /* likeCountView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FEED61E01910A00C81337 /* likeCountView.m */; };
 		1D9A611E1E00383700F17717 /* registerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A611C1E00383700F17717 /* registerViewController.m */; };
 		1D9A61211E0038C400F17717 /* registerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D9A61201E0038C400F17717 /* registerViewController.xib */; };
 		1D9A61241E0039A200F17717 /* DateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A61231E0039A200F17717 /* DateManager.m */; };
@@ -211,6 +215,14 @@
 		1D5FEEC31E018E6900C81337 /* SummaryListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryListItem.m; sourceTree = "<group>"; };
 		1D5FEEC51E018EB300C81337 /* ListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListView.h; sourceTree = "<group>"; };
 		1D5FEEC61E018EB300C81337 /* ListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListView.m; sourceTree = "<group>"; };
+		1D5FEEC81E01901E00C81337 /* SummaryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryModel.h; sourceTree = "<group>"; };
+		1D5FEEC91E01901E00C81337 /* SummaryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryModel.m; sourceTree = "<group>"; };
+		1D5FEECB1E01907600C81337 /* topicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = topicModel.h; sourceTree = "<group>"; };
+		1D5FEECC1E01907600C81337 /* topicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = topicModel.m; sourceTree = "<group>"; };
+		1D5FEECE1E01908300C81337 /* userModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userModel.h; sourceTree = "<group>"; };
+		1D5FEECF1E01908300C81337 /* userModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userModel.m; sourceTree = "<group>"; };
+		1D5FEED51E01910A00C81337 /* likeCountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = likeCountView.h; sourceTree = "<group>"; };
+		1D5FEED61E01910A00C81337 /* likeCountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = likeCountView.m; sourceTree = "<group>"; };
 		1D9A611B1E00383700F17717 /* registerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registerViewController.h; sourceTree = "<group>"; };
 		1D9A611C1E00383700F17717 /* registerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registerViewController.m; sourceTree = "<group>"; };
 		1D9A61201E0038C400F17717 /* registerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = registerViewController.xib; sourceTree = "<group>"; };
@@ -537,11 +549,24 @@
 			path = "快看漫画UITests";
 			sourceTree = "<group>";
 		};
+		1D5FEED41E0190F700C81337 /* DCPicscollView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DCPicscollView;
+			sourceTree = "<group>";
+		};
 		1D9A61281E003B7800F17717 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				1D9A61411E003DCF00F17717 /* wordsModel.h */,
 				1D9A61421E003DCF00F17717 /* wordsModel.m */,
+				1D5FEEC81E01901E00C81337 /* SummaryModel.h */,
+				1D5FEEC91E01901E00C81337 /* SummaryModel.m */,
+				1D5FEECB1E01907600C81337 /* topicModel.h */,
+				1D5FEECC1E01907600C81337 /* topicModel.m */,
+				1D5FEECE1E01908300C81337 /* userModel.h */,
+				1D5FEECF1E01908300C81337 /* userModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -935,7 +960,9 @@
 		5B4CA86D1DFFF0AB0006A8C2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5B4CA86E1DFFF0AB0006A8C2 /* DCPicscollView */,
+				1D5FEED51E01910A00C81337 /* likeCountView.h */,
+				1D5FEED61E01910A00C81337 /* likeCountView.m */,
+				1D5FEED41E0190F700C81337 /* DCPicscollView */,
 				5B4CA86F1DFFF0BB0006A8C2 /* ProgressHUD.h */,
 				5B4CA8701DFFF0BB0006A8C2 /* ProgressHUD.m */,
 				1D9A61251E003B1C00F17717 /* navBarTitleView.h */,
@@ -944,13 +971,6 @@
 				1D5FEEC61E018EB300C81337 /* ListView.m */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		5B4CA86E1DFFF0AB0006A8C2 /* DCPicscollView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DCPicscollView;
 			sourceTree = "<group>";
 		};
 		5B4CA8721DFFF12A0006A8C2 /* CommentDetail(评论详情) */ = {
@@ -1379,11 +1399,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D9A61271E003B1C00F17717 /* navBarTitleView.m in Sources */,
+				1D5FEED71E01910A00C81337 /* likeCountView.m in Sources */,
 				5B4CA8311DFFEF000006A8C2 /* alpha.c in Sources */,
 				5B4CA7F41DFFEF000006A8C2 /* idec.c in Sources */,
 				5B4CA8401DFFEF000006A8C2 /* picture_tools.c in Sources */,
 				1D9A612D1E003BA000F17717 /* updateCartoonView.m in Sources */,
 				5B4CA72B1DFFD1730006A8C2 /* FindingsViewController.m in Sources */,
+				1D5FEED01E01908300C81337 /* userModel.m in Sources */,
 				5B4CA7341DFFD54E0006A8C2 /* UserInfoManager.m in Sources */,
 				5B4CA8361DFFEF000006A8C2 /* delta_palettization.c in Sources */,
 				5B4CA83C1DFFEF000006A8C2 /* picture.c in Sources */,
@@ -1432,6 +1454,7 @@
 				1D9A61431E003DCF00F17717 /* wordsModel.m in Sources */,
 				5B4CA82A1DFFEF000006A8C2 /* upsampling_mips_dsp_r2.c in Sources */,
 				5B4CA8121DFFEF000006A8C2 /* enc_mips32.c in Sources */,
+				1D5FEECD1E01907600C81337 /* topicModel.m in Sources */,
 				5B4CA7F51DFFEF000006A8C2 /* io.c in Sources */,
 				1D5FEEC71E018EB300C81337 /* ListView.m in Sources */,
 				5B4CA84E1DFFEF000006A8C2 /* filters.c in Sources */,
@@ -1506,6 +1529,7 @@
 				5B4CA81E1DFFEF000006A8C2 /* lossless_enc_neon.c in Sources */,
 				5B4CA83E1DFFEF000006A8C2 /* picture_psnr.c in Sources */,
 				5B4CA8241DFFEF000006A8C2 /* rescaler.c in Sources */,
+				1D5FEECA1E01901E00C81337 /* SummaryModel.m in Sources */,
 				5B4CA7FD1DFFEF000006A8C2 /* alpha_processing.c in Sources */,
 				5B4CA8641DFFEF330006A8C2 /* UITableView+FDKeyedHeightCache.m in Sources */,
 				1D5FEEC41E018E6900C81337 /* SummaryListItem.m in Sources */,

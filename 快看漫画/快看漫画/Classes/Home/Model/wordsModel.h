@@ -10,4 +10,8 @@
 
 @interface wordsModel : BaseModel
 
+@property (nonatomic,strong) NSMutableArray *comics;
+
+@property (nonatomic,strong) NSNumber *since;
+
 @end
