@@ -14,7 +14,7 @@
 //    "status": "published",
 //    "label_text": "\u90fd\u5e02",
 //    "title": "\u7b2c38\u8bdd \u8fd9\u5c31\u662f\u4f60\u843d\u5728\u6211\u5bb6\u7684\u5c0f\u4e1c\u897f",
-//    "url": "http://www.kuaikanmanhua.com/comics/11786",
+//    "url": "http://www.kuaikanmanhua.com/com ics/11786",
 //    "is_liked": false,
 //    "shared_count": 0,
 //    "updated_at": 1461811546,
