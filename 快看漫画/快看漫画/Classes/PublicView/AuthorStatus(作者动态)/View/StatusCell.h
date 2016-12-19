@@ -8,6 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
+@class FeedsDataModel;
+@class FeedsModel;
+
+static NSString * const statusCellReuseIdentifier = @"StatusCell";
+
 @interface StatusCell : UITableViewCell
+
+@property (nonatomic,strong) FeedsModel *model;
+
+@property (nonatomic,assign) BOOL showFollowBtn;
+
+
++ (StatusCell *)configureCellWithModel:(FeedsDataModel *)model
+                           inTableView:(UITableView *)tableView
+                           AtIndexPath:(NSIndexPath *)indexPath;
+
+
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier;
 
 @end

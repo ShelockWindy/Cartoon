@@ -68,6 +68,9 @@
 		5B1957601E07B82D00768C22 /* userAuthenticationIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19575F1E07B82D00768C22 /* userAuthenticationIcon.m */; };
 		5B1957631E07B8CB00768C22 /* AuthorInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1957621E07B8CB00768C22 /* AuthorInfoViewController.m */; };
 		5B1957671E07B9AC00768C22 /* AuthorStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1957651E07B96500768C22 /* AuthorStatusViewController.m */; };
+		5B19576A1E07BA2000768C22 /* AuthorStatusDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1957691E07BA2000768C22 /* AuthorStatusDetailViewController.m */; };
+		5B19576D1E07BA4000768C22 /* StatusImageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19576C1E07BA4000768C22 /* StatusImageContentView.m */; };
+		5B1957701E07BA5200768C22 /* FeedsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19576F1E07BA5200768C22 /* FeedsTableView.m */; };
 		5B4CA71F1DFFD0F60006A8C2 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA71E1DFFD0F60006A8C2 /* GuideViewController.m */; };
 		5B4CA7221DFFD10A0006A8C2 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7211DFFD10A0006A8C2 /* MainTabBarController.m */; };
 		5B4CA7251DFFD11A0006A8C2 /* MainTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7241DFFD11A0006A8C2 /* MainTabbar.m */; };
@@ -335,6 +338,12 @@
 		5B1957621E07B8CB00768C22 /* AuthorInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorInfoViewController.m; sourceTree = "<group>"; };
 		5B1957641E07B96500768C22 /* AuthorStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorStatusViewController.h; sourceTree = "<group>"; };
 		5B1957651E07B96500768C22 /* AuthorStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorStatusViewController.m; sourceTree = "<group>"; };
+		5B1957681E07BA2000768C22 /* AuthorStatusDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorStatusDetailViewController.h; sourceTree = "<group>"; };
+		5B1957691E07BA2000768C22 /* AuthorStatusDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorStatusDetailViewController.m; sourceTree = "<group>"; };
+		5B19576B1E07BA4000768C22 /* StatusImageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusImageContentView.h; sourceTree = "<group>"; };
+		5B19576C1E07BA4000768C22 /* StatusImageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusImageContentView.m; sourceTree = "<group>"; };
+		5B19576E1E07BA5200768C22 /* FeedsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedsTableView.h; sourceTree = "<group>"; };
+		5B19576F1E07BA5200768C22 /* FeedsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedsTableView.m; sourceTree = "<group>"; };
 		5B4CA71D1DFFD0F60006A8C2 /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
 		5B4CA71E1DFFD0F60006A8C2 /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
 		5B4CA7201DFFD10A0006A8C2 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
@@ -866,6 +875,8 @@
 			children = (
 				5B1957641E07B96500768C22 /* AuthorStatusViewController.h */,
 				5B1957651E07B96500768C22 /* AuthorStatusViewController.m */,
+				5B1957681E07BA2000768C22 /* AuthorStatusDetailViewController.h */,
+				5B1957691E07BA2000768C22 /* AuthorStatusDetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -884,6 +895,10 @@
 			children = (
 				5B19574F1E07B71100768C22 /* StatusCell.h */,
 				5B1957501E07B71100768C22 /* StatusCell.m */,
+				5B19576B1E07BA4000768C22 /* StatusImageContentView.h */,
+				5B19576C1E07BA4000768C22 /* StatusImageContentView.m */,
+				5B19576E1E07BA5200768C22 /* FeedsTableView.h */,
+				5B19576F1E07BA5200768C22 /* FeedsTableView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1686,6 +1701,7 @@
 				5B4CA8141DFFEF000006A8C2 /* enc_neon.c in Sources */,
 				5B4CA82E1DFFEF000006A8C2 /* yuv_mips32.c in Sources */,
 				5B4CA8561DFFEF000006A8C2 /* utils.c in Sources */,
+				5B19576A1E07BA2000768C22 /* AuthorStatusDetailViewController.m in Sources */,
 				5B4CA8111DFFEF000006A8C2 /* enc_avx2.c in Sources */,
 				5B19570A1E07B29900768C22 /* CustomSearchBar.m in Sources */,
 				5B4CA82C1DFFEF000006A8C2 /* upsampling_sse2.c in Sources */,
@@ -1755,6 +1771,7 @@
 				5B1956E91E07AC3800768C22 /* MyMessageCell.m in Sources */,
 				1D9A61321E003C2800F17717 /* SearchViewController.m in Sources */,
 				5B4CA84C1DFFEF000006A8C2 /* bit_writer.c in Sources */,
+				5B1957701E07BA5200768C22 /* FeedsTableView.m in Sources */,
 				5B4CA8531DFFEF000006A8C2 /* random.c in Sources */,
 				1D9A611E1E00383700F17717 /* registerViewController.m in Sources */,
 				5B4CA8471DFFEF000006A8C2 /* anim_encode.c in Sources */,
@@ -1770,6 +1787,7 @@
 				5B4CA83F1DFFEF000006A8C2 /* picture_rescale.c in Sources */,
 				5B4CA8331DFFEF000006A8C2 /* backward_references.c in Sources */,
 				5B4CA7501DFFECEB0006A8C2 /* MyFellowViewController.m in Sources */,
+				5B19576D1E07BA4000768C22 /* StatusImageContentView.m in Sources */,
 				5B4CA8271DFFEF000006A8C2 /* rescaler_neon.c in Sources */,
 				5B4CA88F1DFFF3010006A8C2 /* NSString+Extension.m in Sources */,
 				5B4CA8261DFFEF000006A8C2 /* rescaler_mips_dsp_r2.c in Sources */,
