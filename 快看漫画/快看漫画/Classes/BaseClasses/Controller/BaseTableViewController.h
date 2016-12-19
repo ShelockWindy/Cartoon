@@ -7,7 +7,18 @@
 //
 
 #import "BaseViewController.h"
+#import "BaseViewController.h"
+#import "PrefixHeader.pch"
+#import <Masonry.h>
+#import <MJRefresh.h>
 
-@interface BaseTableViewController : BaseViewController
+@interface BaseTableViewController : BaseViewController <UITableViewDelegate,UITableViewDataSource>
+
+@property (nonatomic,weak,readonly) UITableView *tableView;
+
+
+- (void)updata;
+- (void)loadMoreData;
+
 
 @end

@@ -83,7 +83,7 @@
 
 - (void)gotoWordsPage:(UITapGestureRecognizer *)sender {
     
-    CartoonDetailViewController *cdVc = [[CartoonDetailViewController alloc] init];
+    DetailViewController *cdVc = [[DetailViewController alloc] init];
     
     cdVc.cartoonId = self.model.target_comic.ID;
     
