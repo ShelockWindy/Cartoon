@@ -44,6 +44,7 @@
 		5B1956F11E07AD4400768C22 /* CommentSendViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1956F01E07AD4400768C22 /* CommentSendViewContainer.m */; };
 		5B1956F41E07ADF700768C22 /* CommentSendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1956F31E07ADF700768C22 /* CommentSendView.m */; };
 		5B1956F61E07AE0800768C22 /* CommentSendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1956F51E07AE0800768C22 /* CommentSendView.xib */; };
+		5B1956F81E07AFEE00768C22 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1956F71E07AFEE00768C22 /* LoginViewController.xib */; };
 		5B4CA71F1DFFD0F60006A8C2 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA71E1DFFD0F60006A8C2 /* GuideViewController.m */; };
 		5B4CA7221DFFD10A0006A8C2 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7211DFFD10A0006A8C2 /* MainTabBarController.m */; };
 		5B4CA7251DFFD11A0006A8C2 /* MainTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7241DFFD11A0006A8C2 /* MainTabbar.m */; };
@@ -178,7 +179,6 @@
 		5B4CA8831DFFF17E0006A8C2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA87F1DFFF17E0006A8C2 /* BaseViewController.m */; };
 		5B4CA8861DFFF1A10006A8C2 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA8851DFFF1A10006A8C2 /* BaseModel.m */; };
 		5B4CA88B1DFFF1FD0006A8C2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA8891DFFF1FD0006A8C2 /* LoginViewController.m */; };
-		5B4CA88C1DFFF1FD0006A8C2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4CA88A1DFFF1FD0006A8C2 /* LoginViewController.xib */; };
 		5B4CA88F1DFFF3010006A8C2 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA88E1DFFF3010006A8C2 /* NSString+Extension.m */; };
 		5BC05BD21E040E66007394AE /* 快看漫画首页.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BC05BD11E040E66007394AE /* 快看漫画首页.plist */; };
 		A313F429FB6706B4C4306EBA /* AuthorStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A313F399EDCF5E9F7928812C /* AuthorStatusViewController.m */; };
@@ -269,6 +269,7 @@
 		5B1956F21E07ADF700768C22 /* CommentSendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentSendView.h; sourceTree = "<group>"; };
 		5B1956F31E07ADF700768C22 /* CommentSendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentSendView.m; sourceTree = "<group>"; };
 		5B1956F51E07AE0800768C22 /* CommentSendView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentSendView.xib; sourceTree = "<group>"; };
+		5B1956F71E07AFEE00768C22 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		5B4CA71D1DFFD0F60006A8C2 /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
 		5B4CA71E1DFFD0F60006A8C2 /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
 		5B4CA7201DFFD10A0006A8C2 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
@@ -470,7 +471,6 @@
 		5B4CA8851DFFF1A10006A8C2 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		5B4CA8881DFFF1FD0006A8C2 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		5B4CA8891DFFF1FD0006A8C2 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		5B4CA88A1DFFF1FD0006A8C2 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		5B4CA88D1DFFF3010006A8C2 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		5B4CA88E1DFFF3010006A8C2 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		5BC05BD11E040E66007394AE /* 快看漫画首页.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "快看漫画首页.plist"; sourceTree = "<group>"; };
@@ -1065,9 +1065,9 @@
 		5B4CA8871DFFF1EC0006A8C2 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				5B1956F71E07AFEE00768C22 /* LoginViewController.xib */,
 				5B4CA8881DFFF1FD0006A8C2 /* LoginViewController.h */,
 				5B4CA8891DFFF1FD0006A8C2 /* LoginViewController.m */,
-				5B4CA88A1DFFF1FD0006A8C2 /* LoginViewController.xib */,
 				1D9A611B1E00383700F17717 /* registerViewController.h */,
 				1D9A611C1E00383700F17717 /* registerViewController.m */,
 				1D9A61201E0038C400F17717 /* registerViewController.xib */,
@@ -1374,6 +1374,7 @@
 				5B4CA8671DFFEF330006A8C2 /* LICENSE in Resources */,
 				5B1956EA1E07AC3800768C22 /* MyMessageCell.xib in Resources */,
 				5B1956F61E07AE0800768C22 /* CommentSendView.xib in Resources */,
+				5B1956F81E07AFEE00768C22 /* LoginViewController.xib in Resources */,
 				1D9A61401E003D7200F17717 /* CartoonSummaryCell.xib in Resources */,
 				5BC05BD21E040E66007394AE /* 快看漫画首页.plist in Resources */,
 				1D142DC31DFEEE0000854B44 /* LaunchScreen.storyboard in Resources */,
@@ -1382,7 +1383,6 @@
 				5B4CA7EE1DFFEF000006A8C2 /* COPYING in Resources */,
 				1D9A61211E0038C400F17717 /* registerViewController.xib in Resources */,
 				1D142DBE1DFEEE0000854B44 /* Main.storyboard in Resources */,
-				5B4CA88C1DFFF1FD0006A8C2 /* LoginViewController.xib in Resources */,
 				1D9A613B1E003CC300F17717 /* UserNotLoginTipView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
