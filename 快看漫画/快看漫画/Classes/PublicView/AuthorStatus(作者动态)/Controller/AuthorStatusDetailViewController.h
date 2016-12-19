@@ -8,6 +8,15 @@
 
 #import "BaseViewController.h"
 
+@class FeedsModel;
+
 @interface AuthorStatusDetailViewController : BaseViewController
+
+@property (nonatomic,strong) FeedsModel *feed_Model;
+
+@property (nonatomic,assign) CGFloat statusCellHeight;
+
+
+- (instancetype)initWithFeedsModel:(FeedsModel *)model WithCellHeight:(CGFloat)cellheight;
 
 @end
