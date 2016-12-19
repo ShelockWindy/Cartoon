@@ -38,6 +38,12 @@
 		1D9A61401E003D7200F17717 /* CartoonSummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D9A613E1E003D7200F17717 /* CartoonSummaryCell.xib */; };
 		1D9A61431E003DCF00F17717 /* wordsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A61421E003DCF00F17717 /* wordsModel.m */; };
 		1D9A61461E003F6700F17717 /* ModelCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A61451E003F6700F17717 /* ModelCacheManager.m */; };
+		5B1956E91E07AC3800768C22 /* MyMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1956E71E07AC3800768C22 /* MyMessageCell.m */; };
+		5B1956EA1E07AC3800768C22 /* MyMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1956E81E07AC3800768C22 /* MyMessageCell.xib */; };
+		5B1956ED1E07ACB300768C22 /* ReplyDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1956EC1E07ACB300768C22 /* ReplyDataModel.m */; };
+		5B1956F11E07AD4400768C22 /* CommentSendViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1956F01E07AD4400768C22 /* CommentSendViewContainer.m */; };
+		5B1956F41E07ADF700768C22 /* CommentSendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1956F31E07ADF700768C22 /* CommentSendView.m */; };
+		5B1956F61E07AE0800768C22 /* CommentSendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1956F51E07AE0800768C22 /* CommentSendView.xib */; };
 		5B4CA71F1DFFD0F60006A8C2 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA71E1DFFD0F60006A8C2 /* GuideViewController.m */; };
 		5B4CA7221DFFD10A0006A8C2 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7211DFFD10A0006A8C2 /* MainTabBarController.m */; };
 		5B4CA7251DFFD11A0006A8C2 /* MainTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7241DFFD11A0006A8C2 /* MainTabbar.m */; };
@@ -253,6 +259,16 @@
 		1D9A61421E003DCF00F17717 /* wordsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordsModel.m; sourceTree = "<group>"; };
 		1D9A61441E003F6700F17717 /* ModelCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelCacheManager.h; sourceTree = "<group>"; };
 		1D9A61451E003F6700F17717 /* ModelCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelCacheManager.m; sourceTree = "<group>"; };
+		5B1956E61E07AC3800768C22 /* MyMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMessageCell.h; sourceTree = "<group>"; };
+		5B1956E71E07AC3800768C22 /* MyMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMessageCell.m; sourceTree = "<group>"; };
+		5B1956E81E07AC3800768C22 /* MyMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyMessageCell.xib; sourceTree = "<group>"; };
+		5B1956EB1E07ACB300768C22 /* ReplyDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplyDataModel.h; sourceTree = "<group>"; };
+		5B1956EC1E07ACB300768C22 /* ReplyDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplyDataModel.m; sourceTree = "<group>"; };
+		5B1956EF1E07AD4400768C22 /* CommentSendViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentSendViewContainer.h; sourceTree = "<group>"; };
+		5B1956F01E07AD4400768C22 /* CommentSendViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentSendViewContainer.m; sourceTree = "<group>"; };
+		5B1956F21E07ADF700768C22 /* CommentSendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentSendView.h; sourceTree = "<group>"; };
+		5B1956F31E07ADF700768C22 /* CommentSendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentSendView.m; sourceTree = "<group>"; };
+		5B1956F51E07AE0800768C22 /* CommentSendView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentSendView.xib; sourceTree = "<group>"; };
 		5B4CA71D1DFFD0F60006A8C2 /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
 		5B4CA71E1DFFD0F60006A8C2 /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
 		5B4CA7201DFFD10A0006A8C2 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
@@ -651,6 +667,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5B1956EE1E07AD3300768C22 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5B1956F51E07AE0800768C22 /* CommentSendView.xib */,
+				5B1956EF1E07AD4400768C22 /* CommentSendViewContainer.h */,
+				5B1956F01E07AD4400768C22 /* CommentSendViewContainer.m */,
+				5B1956F21E07ADF700768C22 /* CommentSendView.h */,
+				5B1956F31E07ADF700768C22 /* CommentSendView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		5B4CA7121DFFD01D0006A8C2 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -996,6 +1024,7 @@
 		5B4CA8721DFFF12A0006A8C2 /* CommentDetail(评论详情) */ = {
 			isa = PBXGroup;
 			children = (
+				5B1956EE1E07AD3300768C22 /* view */,
 				1D5FEED81E01920200C81337 /* Controller */,
 				5B4CA8741DFFF12A0006A8C2 /* Model */,
 			);
@@ -1200,6 +1229,8 @@
 		5B7FE28D1DFF9379004A7C0E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5B1956EB1E07ACB300768C22 /* ReplyDataModel.h */,
+				5B1956EC1E07ACB300768C22 /* ReplyDataModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1207,6 +1238,9 @@
 		5B7FE28E1DFF9379004A7C0E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5B1956E61E07AC3800768C22 /* MyMessageCell.h */,
+				5B1956E71E07AC3800768C22 /* MyMessageCell.m */,
+				5B1956E81E07AC3800768C22 /* MyMessageCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1338,6 +1372,8 @@
 				5B4CA7F01DFFEF000006A8C2 /* README.mux in Resources */,
 				5B4CA7EF1DFFEF000006A8C2 /* README in Resources */,
 				5B4CA8671DFFEF330006A8C2 /* LICENSE in Resources */,
+				5B1956EA1E07AC3800768C22 /* MyMessageCell.xib in Resources */,
+				5B1956F61E07AE0800768C22 /* CommentSendView.xib in Resources */,
 				1D9A61401E003D7200F17717 /* CartoonSummaryCell.xib in Resources */,
 				5BC05BD21E040E66007394AE /* 快看漫画首页.plist in Resources */,
 				1D142DC31DFEEE0000854B44 /* LaunchScreen.storyboard in Resources */,
@@ -1466,6 +1502,7 @@
 				5B4CA83D1DFFEF000006A8C2 /* picture_csp.c in Sources */,
 				5B4CA81A1DFFEF000006A8C2 /* lossless.c in Sources */,
 				5B4CA8201DFFEF000006A8C2 /* lossless_enc_sse41.c in Sources */,
+				5B1956F41E07ADF700768C22 /* CommentSendView.m in Sources */,
 				5B4CA74A1DFFEC6C0006A8C2 /* SettingTableViewController.m in Sources */,
 				5B4CA8511DFFEF000006A8C2 /* quant_levels.c in Sources */,
 				1D9A61461E003F6700F17717 /* ModelCacheManager.m in Sources */,
@@ -1488,11 +1525,13 @@
 				5B4CA8281DFFEF000006A8C2 /* rescaler_sse2.c in Sources */,
 				5B4CA8811DFFF17E0006A8C2 /* BaseNavigationController.m in Sources */,
 				5B4CA73F1DFFD6A20006A8C2 /* DetailViewController.m in Sources */,
+				5B1956F11E07AD4400768C22 /* CommentSendViewContainer.m in Sources */,
 				1D9A613F1E003D7200F17717 /* CartoonSummaryCell.m in Sources */,
 				5B4CA8441DFFEF000006A8C2 /* tree.c in Sources */,
 				1D5FEEDB1E01921500C81337 /* CommentDetailViewController.m in Sources */,
 				5B4CA8521DFFEF000006A8C2 /* quant_levels_dec.c in Sources */,
 				5B4CA7281DFFD1600006A8C2 /* HomeViewController.m in Sources */,
+				5B1956E91E07AC3800768C22 /* MyMessageCell.m in Sources */,
 				1D9A61321E003C2800F17717 /* SearchViewController.m in Sources */,
 				5B4CA84C1DFFEF000006A8C2 /* bit_writer.c in Sources */,
 				5B4CA8531DFFEF000006A8C2 /* random.c in Sources */,
@@ -1573,6 +1612,7 @@
 				5B4CA82D1DFFEF000006A8C2 /* yuv.c in Sources */,
 				1D142DB51DFEEE0000854B44 /* main.m in Sources */,
 				A313F429FB6706B4C4306EBA /* AuthorStatusViewController.m in Sources */,
+				5B1956ED1E07ACB300768C22 /* ReplyDataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
