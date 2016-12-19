@@ -47,6 +47,15 @@
 		5B1956F81E07AFEE00768C22 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1956F71E07AFEE00768C22 /* LoginViewController.xib */; };
 		5B1956FD1E07B07F00768C22 /* AuthorStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1956FC1E07B07F00768C22 /* AuthorStatusViewController.m */; };
 		5B1957021E07B0B600768C22 /* AuthorInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1957011E07B0B600768C22 /* AuthorInfoModel.m */; };
+		5B1957071E07B26A00768C22 /* searchWordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1957061E07B26A00768C22 /* searchWordModel.m */; };
+		5B19570A1E07B29900768C22 /* CustomSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1957091E07B29900768C22 /* CustomSearchBar.m */; };
+		5B19570C1E07B2A800768C22 /* CustomSearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B19570B1E07B2A800768C22 /* CustomSearchBar.xib */; };
+		5B19570F1E07B2E700768C22 /* SearchResultsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19570E1E07B2E700768C22 /* SearchResultsCell.m */; };
+		5B1957111E07B2F500768C22 /* SearchResultsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1957101E07B2F500768C22 /* SearchResultsCell.xib */; };
+		5B1957141E07B32200768C22 /* SearchHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1957131E07B32200768C22 /* SearchHistoryCell.m */; };
+		5B1957171E07B35000768C22 /* SearchHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1957161E07B35000768C22 /* SearchHistoryView.m */; };
+		5B19571A1E07B37800768C22 /* NoResultTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1957191E07B37800768C22 /* NoResultTipView.m */; };
+		5B1957211E07B3E700768C22 /* WordsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1957201E07B3E700768C22 /* WordsDetailViewController.m */; };
 		5B4CA71F1DFFD0F60006A8C2 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA71E1DFFD0F60006A8C2 /* GuideViewController.m */; };
 		5B4CA7221DFFD10A0006A8C2 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7211DFFD10A0006A8C2 /* MainTabBarController.m */; };
 		5B4CA7251DFFD11A0006A8C2 /* MainTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA7241DFFD11A0006A8C2 /* MainTabbar.m */; };
@@ -275,6 +284,22 @@
 		5B1956FC1E07B07F00768C22 /* AuthorStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorStatusViewController.m; sourceTree = "<group>"; };
 		5B1957001E07B0B600768C22 /* AuthorInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorInfoModel.h; sourceTree = "<group>"; };
 		5B1957011E07B0B600768C22 /* AuthorInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorInfoModel.m; sourceTree = "<group>"; };
+		5B1957051E07B26A00768C22 /* searchWordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchWordModel.h; sourceTree = "<group>"; };
+		5B1957061E07B26A00768C22 /* searchWordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchWordModel.m; sourceTree = "<group>"; };
+		5B1957081E07B29900768C22 /* CustomSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSearchBar.h; sourceTree = "<group>"; };
+		5B1957091E07B29900768C22 /* CustomSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSearchBar.m; sourceTree = "<group>"; };
+		5B19570B1E07B2A800768C22 /* CustomSearchBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomSearchBar.xib; sourceTree = "<group>"; };
+		5B19570D1E07B2E700768C22 /* SearchResultsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsCell.h; sourceTree = "<group>"; };
+		5B19570E1E07B2E700768C22 /* SearchResultsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsCell.m; sourceTree = "<group>"; };
+		5B1957101E07B2F500768C22 /* SearchResultsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultsCell.xib; sourceTree = "<group>"; };
+		5B1957121E07B32200768C22 /* SearchHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchHistoryCell.h; sourceTree = "<group>"; };
+		5B1957131E07B32200768C22 /* SearchHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchHistoryCell.m; sourceTree = "<group>"; };
+		5B1957151E07B35000768C22 /* SearchHistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchHistoryView.h; sourceTree = "<group>"; };
+		5B1957161E07B35000768C22 /* SearchHistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchHistoryView.m; sourceTree = "<group>"; };
+		5B1957181E07B37800768C22 /* NoResultTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoResultTipView.h; sourceTree = "<group>"; };
+		5B1957191E07B37800768C22 /* NoResultTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoResultTipView.m; sourceTree = "<group>"; };
+		5B19571F1E07B3E700768C22 /* WordsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordsDetailViewController.h; sourceTree = "<group>"; };
+		5B1957201E07B3E700768C22 /* WordsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordsDetailViewController.m; sourceTree = "<group>"; };
 		5B4CA71D1DFFD0F60006A8C2 /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
 		5B4CA71E1DFFD0F60006A8C2 /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
 		5B4CA7201DFFD10A0006A8C2 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
@@ -637,6 +662,8 @@
 		1D9A612E1E003C0F00F17717 /* SearchPage(搜索) */ = {
 			isa = PBXGroup;
 			children = (
+				5B1957031E07B25E00768C22 /* Model */,
+				5B1957041E07B25E00768C22 /* View */,
 				1D9A612F1E003C0F00F17717 /* Controller */,
 			);
 			path = "SearchPage(搜索)";
@@ -717,6 +744,67 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		5B1957031E07B25E00768C22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B1957051E07B26A00768C22 /* searchWordModel.h */,
+				5B1957061E07B26A00768C22 /* searchWordModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B1957041E07B25E00768C22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B1957101E07B2F500768C22 /* SearchResultsCell.xib */,
+				5B19570B1E07B2A800768C22 /* CustomSearchBar.xib */,
+				5B1957081E07B29900768C22 /* CustomSearchBar.h */,
+				5B1957091E07B29900768C22 /* CustomSearchBar.m */,
+				5B19570D1E07B2E700768C22 /* SearchResultsCell.h */,
+				5B19570E1E07B2E700768C22 /* SearchResultsCell.m */,
+				5B1957121E07B32200768C22 /* SearchHistoryCell.h */,
+				5B1957131E07B32200768C22 /* SearchHistoryCell.m */,
+				5B1957151E07B35000768C22 /* SearchHistoryView.h */,
+				5B1957161E07B35000768C22 /* SearchHistoryView.m */,
+				5B1957181E07B37800768C22 /* NoResultTipView.h */,
+				5B1957191E07B37800768C22 /* NoResultTipView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B19571B1E07B3D300768C22 /* WorksDetail(作品详情) */ = {
+			isa = PBXGroup;
+			children = (
+				5B19571C1E07B3D300768C22 /* Controller */,
+				5B19571D1E07B3D300768C22 /* Model */,
+				5B19571E1E07B3D300768C22 /* View */,
+			);
+			path = "WorksDetail(作品详情)";
+			sourceTree = "<group>";
+		};
+		5B19571C1E07B3D300768C22 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B19571F1E07B3E700768C22 /* WordsDetailViewController.h */,
+				5B1957201E07B3E700768C22 /* WordsDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5B19571D1E07B3D300768C22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B19571E1E07B3D300768C22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		5B4CA7121DFFD01D0006A8C2 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -769,6 +857,7 @@
 		5B4CA7381DFFD68F0006A8C2 /* PublicView */ = {
 			isa = PBXGroup;
 			children = (
+				5B19571B1E07B3D300768C22 /* WorksDetail(作品详情) */,
 				5B1956F91E07B06C00768C22 /* AuthorInfoPage(作者信息页面) */,
 				1D9A612E1E003C0F00F17717 /* SearchPage(搜索) */,
 				5B4CA8871DFFF1EC0006A8C2 /* Login */,
@@ -1405,9 +1494,11 @@
 				5B1956F61E07AE0800768C22 /* CommentSendView.xib in Resources */,
 				5B1956F81E07AFEE00768C22 /* LoginViewController.xib in Resources */,
 				1D9A61401E003D7200F17717 /* CartoonSummaryCell.xib in Resources */,
+				5B1957111E07B2F500768C22 /* SearchResultsCell.xib in Resources */,
 				5BC05BD21E040E66007394AE /* 快看漫画首页.plist in Resources */,
 				1D142DC31DFEEE0000854B44 /* LaunchScreen.storyboard in Resources */,
 				5B4CA7441DFFD7950006A8C2 /* PersonalCenter.storyboard in Resources */,
+				5B19570C1E07B2A800768C22 /* CustomSearchBar.xib in Resources */,
 				1D142DC01DFEEE0000854B44 /* Assets.xcassets in Resources */,
 				5B4CA7EE1DFFEF000006A8C2 /* COPYING in Resources */,
 				1D9A61211E0038C400F17717 /* registerViewController.xib in Resources */,
@@ -1503,6 +1594,7 @@
 				5B4CA82E1DFFEF000006A8C2 /* yuv_mips32.c in Sources */,
 				5B4CA8561DFFEF000006A8C2 /* utils.c in Sources */,
 				5B4CA8111DFFEF000006A8C2 /* enc_avx2.c in Sources */,
+				5B19570A1E07B29900768C22 /* CustomSearchBar.m in Sources */,
 				5B4CA82C1DFFEF000006A8C2 /* upsampling_sse2.c in Sources */,
 				5B4CA84D1DFFEF000006A8C2 /* color_cache.c in Sources */,
 				5B4CA84B1DFFEF000006A8C2 /* bit_reader.c in Sources */,
@@ -1548,6 +1640,7 @@
 				1D5FEEDE1E01926900C81337 /* UIColor+Extension.m in Sources */,
 				1D5FEEC71E018EB300C81337 /* ListView.m in Sources */,
 				5B4CA84E1DFFEF000006A8C2 /* filters.c in Sources */,
+				5B1957211E07B3E700768C22 /* WordsDetailViewController.m in Sources */,
 				5B4CA8491DFFEF000006A8C2 /* muxinternal.c in Sources */,
 				5B4CA80F1DFFEF000006A8C2 /* dec_sse41.c in Sources */,
 				5B4CA88B1DFFF1FD0006A8C2 /* LoginViewController.m in Sources */,
@@ -1560,6 +1653,7 @@
 				5B4CA8441DFFEF000006A8C2 /* tree.c in Sources */,
 				1D5FEEDB1E01921500C81337 /* CommentDetailViewController.m in Sources */,
 				5B4CA8521DFFEF000006A8C2 /* quant_levels_dec.c in Sources */,
+				5B1957141E07B32200768C22 /* SearchHistoryCell.m in Sources */,
 				5B4CA7281DFFD1600006A8C2 /* HomeViewController.m in Sources */,
 				5B1956E91E07AC3800768C22 /* MyMessageCell.m in Sources */,
 				1D9A61321E003C2800F17717 /* SearchViewController.m in Sources */,
@@ -1567,6 +1661,7 @@
 				5B4CA8531DFFEF000006A8C2 /* random.c in Sources */,
 				1D9A611E1E00383700F17717 /* registerViewController.m in Sources */,
 				5B4CA8471DFFEF000006A8C2 /* anim_encode.c in Sources */,
+				5B19571A1E07B37800768C22 /* NoResultTipView.m in Sources */,
 				5B4CA7FC1DFFEF000006A8C2 /* demux.c in Sources */,
 				5B4CA7F21DFFEF000006A8C2 /* buffer.c in Sources */,
 				5B4CA8031DFFEF000006A8C2 /* argb_sse2.c in Sources */,
@@ -1600,6 +1695,7 @@
 				5B4CA7251DFFD11A0006A8C2 /* MainTabbar.m in Sources */,
 				5B4CA8371DFFEF000006A8C2 /* filter.c in Sources */,
 				5B4CA8551DFFEF000006A8C2 /* thread.c in Sources */,
+				5B1957171E07B35000768C22 /* SearchHistoryView.m in Sources */,
 				5B4CA8711DFFF0BB0006A8C2 /* ProgressHUD.m in Sources */,
 				5B4CA81B1DFFEF000006A8C2 /* lossless_enc.c in Sources */,
 				5B4CA8431DFFEF000006A8C2 /* token.c in Sources */,
@@ -1632,6 +1728,8 @@
 				5B4CA8291DFFEF000006A8C2 /* upsampling.c in Sources */,
 				5B4CA8461DFFEF000006A8C2 /* webpenc.c in Sources */,
 				5B4CA8161DFFEF000006A8C2 /* enc_sse41.c in Sources */,
+				5B19570F1E07B2E700768C22 /* SearchResultsCell.m in Sources */,
+				5B1957071E07B26A00768C22 /* searchWordModel.m in Sources */,
 				5B4CA8411DFFEF000006A8C2 /* quant.c in Sources */,
 				5B4CA7221DFFD10A0006A8C2 /* MainTabBarController.m in Sources */,
 				5B4CA8041DFFEF000006A8C2 /* cost.c in Sources */,
