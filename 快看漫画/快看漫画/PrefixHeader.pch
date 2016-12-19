@@ -94,4 +94,14 @@ selector:_selector name:_name object:nil];
 //用户信息获取 使用user ID
 #define AuthorInfoUrlStringFormat @"http://api.kuaikanmanhua.com/v1/users/%@?"
 
+
+//关注  use topics ID
+#define FollowTopicsUrlStringFormat   @"http://api.kuaikanmanhua.com/v1/topics/%@/fav"
+
+//关注  use comics ID
+#define FollowComicsUrlStringFormat   @"http://api.kuaikanmanhua.com/v1/comics/%@/fav"
+
+//用户信息获取 使用user ID
+#define AuthorInfoUrlStringFormat @"http://api.kuaikanmanhua.com/v1/users/%@?"
+
 #endif /* PrefixHeader_pch */
