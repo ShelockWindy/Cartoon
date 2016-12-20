@@ -12,7 +12,7 @@
 
 #import "topicInfoModel.h"
 #import "bannerModel.h"
-#import "CommonMacro.h"
+#import "PrefixHeader.pch"
 
 #import "navBarTitleView.h"
 #import "DCPicScrollView.h"

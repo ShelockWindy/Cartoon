@@ -10,4 +10,12 @@
 
 @interface bannerInfoModel : BaseModel
 
+@property (nonatomic,strong) NSNumber *ID;
+
+@property (nonatomic,copy) NSString *pic;
+
+@property (nonatomic,strong) NSNumber *target_id;
+
+@property (nonatomic,strong) NSNumber *type;
+
 @end
