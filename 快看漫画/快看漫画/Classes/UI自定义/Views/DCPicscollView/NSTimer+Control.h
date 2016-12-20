@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface NSTimer (Control)
++ (instancetype)scheduledTimerWithTimeInterval:(NSTimeInterval)interval block:(void (^)())block repeats:(BOOL)repeats;
 
+- (void)begin;
+- (void)pause;
 @end

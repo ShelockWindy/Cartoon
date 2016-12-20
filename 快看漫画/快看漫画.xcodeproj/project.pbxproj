@@ -1756,7 +1756,6 @@
 		5B7FE2861DFF9379004A7C0E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5BA3E1FA1E093AB800CBD896 /* MeiZhouPaiHangItem.xib */,
 				5BA3E1E21E093A4C00CBD896 /* FindHeaderSectionView.h */,
 				5BA3E1E31E093A4C00CBD896 /* FindHeaderSectionView.m */,
 				5BA3E1E51E093A6900CBD896 /* RenQiBiaoShengCell.h */,
@@ -1773,6 +1772,7 @@
 				5BA3E1F51E093A9F00CBD896 /* topicInfoView.m */,
 				5BA3E1F71E093AAD00CBD896 /* MeiZhouPaiHangItem.h */,
 				5BA3E1F81E093AAD00CBD896 /* MeiZhouPaiHangItem.m */,
+				5BA3E1FA1E093AB800CBD896 /* MeiZhouPaiHangItem.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";

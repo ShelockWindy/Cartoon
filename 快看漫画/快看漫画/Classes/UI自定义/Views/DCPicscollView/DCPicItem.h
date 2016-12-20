@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+#import "DCPicItemConfiguration.h"
+
 @interface DCPicItem : UICollectionViewCell
+
+@property (nonatomic,weak,readonly) UIImageView *imageView;
+
+@property (nonatomic,weak,readonly) UILabel *titleView;
+
+@property (nonatomic,strong) DCPicItemConfiguration *configuration;
 
 @end
