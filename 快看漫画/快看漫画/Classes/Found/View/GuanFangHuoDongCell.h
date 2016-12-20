@@ -10,4 +10,6 @@
 
 @interface GuanFangHuoDongCell : UITableViewCell
 
+@property (nonatomic,copy) NSArray *topics;
+
 @end

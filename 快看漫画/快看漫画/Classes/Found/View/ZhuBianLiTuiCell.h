@@ -10,4 +10,6 @@
 
 @interface ZhuBianLiTuiCell : UITableViewCell
 
+@property (nonatomic,copy) NSArray *topics;
+
 @end

@@ -10,4 +10,6 @@
 
 @interface XinZuoCell : UITableViewCell
 
+@property (nonatomic,copy) NSArray *topics;
+
 @end
