@@ -10,4 +10,6 @@
 
 @interface AuthorProfileView : UIView
 
+@property (nonatomic,weak,readonly) UILabel *profileText;
+
 @end

@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#define wordsOptionsHeadViewHeight 40
+
+
 @interface wordsOptionsHeadView : UIView
 
 @end
