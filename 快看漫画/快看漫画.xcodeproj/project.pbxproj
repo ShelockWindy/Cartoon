@@ -100,7 +100,6 @@
 		5B1957CF1E07BC2600768C22 /* CommentInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1957CE1E07BC2600768C22 /* CommentInfoCell.m */; };
 		5B1957D11E07BC3200768C22 /* CommentInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1957D01E07BC3200768C22 /* CommentInfoCell.xib */; };
 		5B1957D41E07BC8400768C22 /* CommentDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1957D31E07BC8400768C22 /* CommentDetailModel.m */; };
-		5B1957D91E07BCEB00768C22 /* CommentSectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1957D81E07BCEB00768C22 /* CommentSectionHeadView.m */; };
 		5B1957DC1E07BD0500768C22 /* CommentBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1957DB1E07BD0500768C22 /* CommentBottomView.m */; };
 		5B1957DE1E07BD1100768C22 /* CommentBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1957DD1E07BD1100768C22 /* CommentBottomView.xib */; };
 		5B4CA71F1DFFD0F60006A8C2 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA71E1DFFD0F60006A8C2 /* GuideViewController.m */; };
@@ -262,6 +261,12 @@
 		5BA3E2071E0944C500CBD896 /* MyCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E2061E0944C500CBD896 /* MyCollectionCell.m */; };
 		5BA3E20A1E0944DE00CBD896 /* MyCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3E2081E0944DE00CBD896 /* MyCollectionCell.xib */; };
 		5BA3E20B1E0944DE00CBD896 /* MyFellowWordsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3E2091E0944DE00CBD896 /* MyFellowWordsCell.xib */; };
+		5BA3E20E1E0948F100CBD896 /* comicsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E20D1E0948F100CBD896 /* comicsModel.m */; };
+		5BA3E2111E09490A00CBD896 /* CommentSectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E2101E09490A00CBD896 /* CommentSectionHeadView.m */; };
+		5BA3E2141E09492500CBD896 /* CartoonFlooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E2131E09492500CBD896 /* CartoonFlooterView.m */; };
+		5BA3E2161E09493100CBD896 /* CartoonFlooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3E2151E09493100CBD896 /* CartoonFlooterView.xib */; };
+		5BA3E2191E09494A00CBD896 /* CartoonContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E2181E09494A00CBD896 /* CartoonContentCell.m */; };
+		5BA3E21C1E0949CD00CBD896 /* authorInfoHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E21B1E0949CD00CBD896 /* authorInfoHeadView.m */; };
 		5BC05BD21E040E66007394AE /* 快看漫画首页.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BC05BD11E040E66007394AE /* 快看漫画首页.plist */; };
 /* End PBXBuildFile section */
 
@@ -458,8 +463,6 @@
 		5B1957D01E07BC3200768C22 /* CommentInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentInfoCell.xib; sourceTree = "<group>"; };
 		5B1957D21E07BC8400768C22 /* CommentDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentDetailModel.h; sourceTree = "<group>"; };
 		5B1957D31E07BC8400768C22 /* CommentDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentDetailModel.m; sourceTree = "<group>"; };
-		5B1957D71E07BCEB00768C22 /* CommentSectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentSectionHeadView.h; sourceTree = "<group>"; };
-		5B1957D81E07BCEB00768C22 /* CommentSectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentSectionHeadView.m; sourceTree = "<group>"; };
 		5B1957DA1E07BD0500768C22 /* CommentBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentBottomView.h; sourceTree = "<group>"; };
 		5B1957DB1E07BD0500768C22 /* CommentBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentBottomView.m; sourceTree = "<group>"; };
 		5B1957DD1E07BD1100768C22 /* CommentBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentBottomView.xib; sourceTree = "<group>"; };
@@ -711,6 +714,17 @@
 		5BA3E2061E0944C500CBD896 /* MyCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionCell.m; sourceTree = "<group>"; };
 		5BA3E2081E0944DE00CBD896 /* MyCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionCell.xib; sourceTree = "<group>"; };
 		5BA3E2091E0944DE00CBD896 /* MyFellowWordsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyFellowWordsCell.xib; sourceTree = "<group>"; };
+		5BA3E20C1E0948F100CBD896 /* comicsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comicsModel.h; sourceTree = "<group>"; };
+		5BA3E20D1E0948F100CBD896 /* comicsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = comicsModel.m; sourceTree = "<group>"; };
+		5BA3E20F1E09490A00CBD896 /* CommentSectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentSectionHeadView.h; sourceTree = "<group>"; };
+		5BA3E2101E09490A00CBD896 /* CommentSectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentSectionHeadView.m; sourceTree = "<group>"; };
+		5BA3E2121E09492500CBD896 /* CartoonFlooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartoonFlooterView.h; sourceTree = "<group>"; };
+		5BA3E2131E09492500CBD896 /* CartoonFlooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartoonFlooterView.m; sourceTree = "<group>"; };
+		5BA3E2151E09493100CBD896 /* CartoonFlooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartoonFlooterView.xib; sourceTree = "<group>"; };
+		5BA3E2171E09494A00CBD896 /* CartoonContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartoonContentCell.h; sourceTree = "<group>"; };
+		5BA3E2181E09494A00CBD896 /* CartoonContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartoonContentCell.m; sourceTree = "<group>"; };
+		5BA3E21A1E0949CD00CBD896 /* authorInfoHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = authorInfoHeadView.h; sourceTree = "<group>"; };
+		5BA3E21B1E0949CD00CBD896 /* authorInfoHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = authorInfoHeadView.m; sourceTree = "<group>"; };
 		5BC05BD11E040E66007394AE /* 快看漫画首页.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "快看漫画首页.plist"; sourceTree = "<group>"; };
 		5FF7DC4C0FE3CCE023E50BAD /* Pods-快看漫画.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快看漫画.release.xcconfig"; path = "Pods/Target Support Files/Pods-快看漫画/Pods-快看漫画.release.xcconfig"; sourceTree = "<group>"; };
 		7F52C35FF969E4E51D5E9188 /* libPods-快看漫画.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-快看漫画.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1241,6 +1255,8 @@
 			children = (
 				5BA3E1D01E09393D00CBD896 /* bannerInfoModel.h */,
 				5BA3E1D11E09393D00CBD896 /* bannerInfoModel.m */,
+				5BA3E20C1E0948F100CBD896 /* comicsModel.h */,
+				5BA3E20D1E0948F100CBD896 /* comicsModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1248,11 +1264,18 @@
 		5B1957D61E07BCDE00768C22 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5B1957DD1E07BD1100768C22 /* CommentBottomView.xib */,
-				5B1957D71E07BCEB00768C22 /* CommentSectionHeadView.h */,
-				5B1957D81E07BCEB00768C22 /* CommentSectionHeadView.m */,
 				5B1957DA1E07BD0500768C22 /* CommentBottomView.h */,
 				5B1957DB1E07BD0500768C22 /* CommentBottomView.m */,
+				5B1957DD1E07BD1100768C22 /* CommentBottomView.xib */,
+				5BA3E20F1E09490A00CBD896 /* CommentSectionHeadView.h */,
+				5BA3E2101E09490A00CBD896 /* CommentSectionHeadView.m */,
+				5BA3E2121E09492500CBD896 /* CartoonFlooterView.h */,
+				5BA3E2131E09492500CBD896 /* CartoonFlooterView.m */,
+				5BA3E2151E09493100CBD896 /* CartoonFlooterView.xib */,
+				5BA3E2171E09494A00CBD896 /* CartoonContentCell.h */,
+				5BA3E2181E09494A00CBD896 /* CartoonContentCell.m */,
+				5BA3E21A1E0949CD00CBD896 /* authorInfoHeadView.h */,
+				5BA3E21B1E0949CD00CBD896 /* authorInfoHeadView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2000,6 +2023,7 @@
 				5BA3E1FB1E093AB800CBD896 /* MeiZhouPaiHangItem.xib in Resources */,
 				5B1957DE1E07BD1100768C22 /* CommentBottomView.xib in Resources */,
 				1D142DC31DFEEE0000854B44 /* LaunchScreen.storyboard in Resources */,
+				5BA3E2161E09493100CBD896 /* CartoonFlooterView.xib in Resources */,
 				5B4CA7441DFFD7950006A8C2 /* PersonalCenter.storyboard in Resources */,
 				5B19570C1E07B2A800768C22 /* CustomSearchBar.xib in Resources */,
 				1D142DC01DFEEE0000854B44 /* Assets.xcassets in Resources */,
@@ -2120,6 +2144,7 @@
 				5B4CA8391DFFEF000006A8C2 /* histogram.c in Sources */,
 				5B4CA8131DFFEF000006A8C2 /* enc_mips_dsp_r2.c in Sources */,
 				5B4CA8101DFFEF000006A8C2 /* enc.c in Sources */,
+				5BA3E2141E09492500CBD896 /* CartoonFlooterView.m in Sources */,
 				5B4CA8231DFFEF000006A8C2 /* lossless_sse2.c in Sources */,
 				5B4CA8221DFFEF000006A8C2 /* lossless_neon.c in Sources */,
 				5B4CA8831DFFF17E0006A8C2 /* BaseViewController.m in Sources */,
@@ -2191,6 +2216,7 @@
 				1D5FEEDB1E01921500C81337 /* CommentDetailViewController.m in Sources */,
 				5BA3E1CC1E0938BC00CBD896 /* bannerModel.m in Sources */,
 				5B4CA8521DFFEF000006A8C2 /* quant_levels_dec.c in Sources */,
+				5BA3E2191E09494A00CBD896 /* CartoonContentCell.m in Sources */,
 				5B1957141E07B32200768C22 /* SearchHistoryCell.m in Sources */,
 				5B1957BD1E07BB9F00768C22 /* ZLPhotoAssets.m in Sources */,
 				5B1957601E07B82D00768C22 /* userAuthenticationIcon.m in Sources */,
@@ -2204,6 +2230,7 @@
 				5B1957D41E07BC8400768C22 /* CommentDetailModel.m in Sources */,
 				5B4CA8471DFFEF000006A8C2 /* anim_encode.c in Sources */,
 				5BA3E1DB1E0939DD00CBD896 /* DCPicItemConfiguration.m in Sources */,
+				5BA3E21C1E0949CD00CBD896 /* authorInfoHeadView.m in Sources */,
 				5B1957B71E07BB9F00768C22 /* ZLPhotoPickerBrowserViewController+SignlePhotoBrowser.m in Sources */,
 				5B19571A1E07B37800768C22 /* NoResultTipView.m in Sources */,
 				5B4CA7FC1DFFEF000006A8C2 /* demux.c in Sources */,
@@ -2243,6 +2270,7 @@
 				5B4CA8421DFFEF000006A8C2 /* syntax.c in Sources */,
 				1D9A61391E003CAE00F17717 /* UserNotLoginTipView.m in Sources */,
 				5B4CA7371DFFD6250006A8C2 /* PersonalViewController.m in Sources */,
+				5BA3E20E1E0948F100CBD896 /* comicsModel.m in Sources */,
 				5B4CA8061DFFEF000006A8C2 /* cost_mips_dsp_r2.c in Sources */,
 				5B4CA8211DFFEF000006A8C2 /* lossless_mips_dsp_r2.c in Sources */,
 				5B4CA7FE1DFFEF000006A8C2 /* alpha_processing_mips_dsp_r2.c in Sources */,
@@ -2252,7 +2280,6 @@
 				5B4CA8371DFFEF000006A8C2 /* filter.c in Sources */,
 				5B4CA8551DFFEF000006A8C2 /* thread.c in Sources */,
 				5B1957171E07B35000768C22 /* SearchHistoryView.m in Sources */,
-				5B1957D91E07BCEB00768C22 /* CommentSectionHeadView.m in Sources */,
 				5B4CA8711DFFF0BB0006A8C2 /* ProgressHUD.m in Sources */,
 				5B4CA81B1DFFEF000006A8C2 /* lossless_enc.c in Sources */,
 				5B4CA8431DFFEF000006A8C2 /* token.c in Sources */,
@@ -2278,6 +2305,7 @@
 				5B1957B41E07BB9F00768C22 /* UIView+ZLExtension.m in Sources */,
 				1D9A61351E003C5E00F17717 /* WordsListView.m in Sources */,
 				5B4CA8011DFFEF000006A8C2 /* argb.c in Sources */,
+				5BA3E2111E09490A00CBD896 /* CommentSectionHeadView.m in Sources */,
 				5B4CA8661DFFEF330006A8C2 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
 				5B4CA81E1DFFEF000006A8C2 /* lossless_enc_neon.c in Sources */,
 				5B4CA83E1DFFEF000006A8C2 /* picture_psnr.c in Sources */,

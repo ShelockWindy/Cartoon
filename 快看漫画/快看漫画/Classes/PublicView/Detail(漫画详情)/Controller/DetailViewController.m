@@ -7,6 +7,30 @@
 //
 
 #import "DetailViewController.h"
+#import "CommentDetailViewController.h"
+#import "WordsDetailViewController.h"
+#import "AuthorInfoViewController.h"
+
+#import "NetWorkManager.h"
+#import "ProgressHUD.h"
+#import "UserInfoManager.h"
+
+#import <Masonry.h>
+#import <UIImageView+WebCache.h>
+#import "UITableView+FDTemplateLayoutCell.h"
+
+#import "comicsModel.h"
+#import "CommentsModel.h"
+#import "PrefixHeader.pch"
+
+#import "CommentSectionHeadView.h"
+#import "FindHeaderSectionView.h"
+#import "CartoonFlooterView.h"
+#import "CartoonContentCell.h"
+#import "authorInfoHeadView.h"
+#import "CommentBottomView.h"
+#import "CommentInfoCell.h"
+#import "UIView+Extension.h"
 
 @interface DetailViewController ()
 
