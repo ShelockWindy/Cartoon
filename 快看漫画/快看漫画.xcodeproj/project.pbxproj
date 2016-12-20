@@ -1745,7 +1745,6 @@
 				5B4CA7301DFFD39A0006A8C2 /* Extension */,
 				5B4CA7121DFFD01D0006A8C2 /* Resource */,
 				5B4CA7131DFFD0840006A8C2 /* BaseClasses */,
-				5B7FE27F1DFF9379004A7C0E /* Author */,
 				5B7FE2831DFF9379004A7C0E /* Found */,
 				5B7FE2871DFF9379004A7C0E /* Home */,
 				5B7FE28B1DFF9379004A7C0E /* Personal */,
@@ -1779,29 +1778,6 @@
 			children = (
 				5B4CA7231DFFD11A0006A8C2 /* MainTabbar.h */,
 				5B4CA7241DFFD11A0006A8C2 /* MainTabbar.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		5B7FE27F1DFF9379004A7C0E /* Author */ = {
-			isa = PBXGroup;
-			children = (
-				5B7FE2811DFF9379004A7C0E /* Model */,
-				5B7FE2821DFF9379004A7C0E /* View */,
-			);
-			path = Author;
-			sourceTree = "<group>";
-		};
-		5B7FE2811DFF9379004A7C0E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		5B7FE2821DFF9379004A7C0E /* View */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
