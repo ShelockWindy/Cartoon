@@ -238,6 +238,10 @@
 		5B4CA8861DFFF1A10006A8C2 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA8851DFFF1A10006A8C2 /* BaseModel.m */; };
 		5B4CA88B1DFFF1FD0006A8C2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA8891DFFF1FD0006A8C2 /* LoginViewController.m */; };
 		5B4CA88F1DFFF3010006A8C2 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CA88E1DFFF3010006A8C2 /* NSString+Extension.m */; };
+		5BA3E1C91E09389F00CBD896 /* topicInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E1C81E09389F00CBD896 /* topicInfoModel.m */; };
+		5BA3E1CC1E0938BC00CBD896 /* bannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E1CB1E0938BC00CBD896 /* bannerModel.m */; };
+		5BA3E1CF1E0938C500CBD896 /* bannersModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E1CE1E0938C500CBD896 /* bannersModel.m */; };
+		5BA3E1D21E09393D00CBD896 /* bannerInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E1D11E09393D00CBD896 /* bannerInfoModel.m */; };
 		5BC05BD21E040E66007394AE /* 快看漫画首页.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BC05BD11E040E66007394AE /* 快看漫画首页.plist */; };
 /* End PBXBuildFile section */
 
@@ -642,6 +646,14 @@
 		5B4CA8891DFFF1FD0006A8C2 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		5B4CA88D1DFFF3010006A8C2 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		5B4CA88E1DFFF3010006A8C2 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		5BA3E1C71E09389F00CBD896 /* topicInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = topicInfoModel.h; sourceTree = "<group>"; };
+		5BA3E1C81E09389F00CBD896 /* topicInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = topicInfoModel.m; sourceTree = "<group>"; };
+		5BA3E1CA1E0938BC00CBD896 /* bannerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bannerModel.h; sourceTree = "<group>"; };
+		5BA3E1CB1E0938BC00CBD896 /* bannerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bannerModel.m; sourceTree = "<group>"; };
+		5BA3E1CD1E0938C500CBD896 /* bannersModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bannersModel.h; sourceTree = "<group>"; };
+		5BA3E1CE1E0938C500CBD896 /* bannersModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bannersModel.m; sourceTree = "<group>"; };
+		5BA3E1D01E09393D00CBD896 /* bannerInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bannerInfoModel.h; sourceTree = "<group>"; };
+		5BA3E1D11E09393D00CBD896 /* bannerInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bannerInfoModel.m; sourceTree = "<group>"; };
 		5BC05BD11E040E66007394AE /* 快看漫画首页.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "快看漫画首页.plist"; sourceTree = "<group>"; };
 		5FF7DC4C0FE3CCE023E50BAD /* Pods-快看漫画.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快看漫画.release.xcconfig"; path = "Pods/Target Support Files/Pods-快看漫画/Pods-快看漫画.release.xcconfig"; sourceTree = "<group>"; };
 		7F52C35FF969E4E51D5E9188 /* libPods-快看漫画.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-快看漫画.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1160,6 +1172,8 @@
 		5B1957D51E07BCDE00768C22 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5BA3E1D01E09393D00CBD896 /* bannerInfoModel.h */,
+				5BA3E1D11E09393D00CBD896 /* bannerInfoModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1678,6 +1692,12 @@
 		5B7FE2851DFF9379004A7C0E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5BA3E1C71E09389F00CBD896 /* topicInfoModel.h */,
+				5BA3E1C81E09389F00CBD896 /* topicInfoModel.m */,
+				5BA3E1CA1E0938BC00CBD896 /* bannerModel.h */,
+				5BA3E1CB1E0938BC00CBD896 /* bannerModel.m */,
+				5BA3E1CD1E0938C500CBD896 /* bannersModel.h */,
+				5BA3E1CE1E0938C500CBD896 /* bannersModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1982,6 +2002,7 @@
 				5B4CA7F71DFFEF000006A8C2 /* tree.c in Sources */,
 				5B4CA8451DFFEF000006A8C2 /* vp8l.c in Sources */,
 				5B4CA8141DFFEF000006A8C2 /* enc_neon.c in Sources */,
+				5BA3E1D21E09393D00CBD896 /* bannerInfoModel.m in Sources */,
 				5B1957CA1E07BB9F00768C22 /* DACircularProgressView.m in Sources */,
 				5B4CA82E1DFFEF000006A8C2 /* yuv_mips32.c in Sources */,
 				5B4CA8561DFFEF000006A8C2 /* utils.c in Sources */,
@@ -2032,6 +2053,7 @@
 				5B1957021E07B0B600768C22 /* AuthorInfoModel.m in Sources */,
 				5B4CA7FF1DFFEF000006A8C2 /* alpha_processing_sse2.c in Sources */,
 				5B4CA80C1DFFEF000006A8C2 /* dec_mips_dsp_r2.c in Sources */,
+				5BA3E1C91E09389F00CBD896 /* topicInfoModel.m in Sources */,
 				5B4CA7F11DFFEF000006A8C2 /* alpha.c in Sources */,
 				5B4CA8001DFFEF000006A8C2 /* alpha_processing_sse41.c in Sources */,
 				1D9A61431E003DCF00F17717 /* wordsModel.m in Sources */,
@@ -2057,6 +2079,7 @@
 				1D9A613F1E003D7200F17717 /* CartoonSummaryCell.m in Sources */,
 				5B4CA8441DFFEF000006A8C2 /* tree.c in Sources */,
 				1D5FEEDB1E01921500C81337 /* CommentDetailViewController.m in Sources */,
+				5BA3E1CC1E0938BC00CBD896 /* bannerModel.m in Sources */,
 				5B4CA8521DFFEF000006A8C2 /* quant_levels_dec.c in Sources */,
 				5B1957141E07B32200768C22 /* SearchHistoryCell.m in Sources */,
 				5B1957BD1E07BB9F00768C22 /* ZLPhotoAssets.m in Sources */,
@@ -2122,6 +2145,7 @@
 				5B4CA8431DFFEF000006A8C2 /* token.c in Sources */,
 				5B4CA80A1DFFEF000006A8C2 /* dec_clip_tables.c in Sources */,
 				5B4CA8051DFFEF000006A8C2 /* cost_mips32.c in Sources */,
+				5BA3E1CF1E0938C500CBD896 /* bannersModel.m in Sources */,
 				5B1957B31E07BB9F00768C22 /* UIImage+ZLPhotoLib.m in Sources */,
 				1D5FEEC11E018E4F00C81337 /* updateCartoonListView.m in Sources */,
 				5B1957281E07B59900768C22 /* AuthorInfoDetailHeadView.m in Sources */,
