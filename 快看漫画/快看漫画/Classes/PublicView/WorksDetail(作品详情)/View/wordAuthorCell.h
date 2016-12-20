@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+#import "PrefixHeader.pch"
+
+@class userModel;
+
+#define wordAuthorCellHeight 50
+
 @interface wordAuthorCell : UITableViewCell
+
+@property (nonatomic,strong) userModel *model;
 
 @end

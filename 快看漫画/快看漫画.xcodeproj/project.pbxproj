@@ -13,6 +13,11 @@
 		1D03AA141E097A88000BED20 /* wordsSequenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D03AA131E097A88000BED20 /* wordsSequenceView.m */; };
 		1D03AA171E097A95000BED20 /* wordDescSectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D03AA161E097A95000BED20 /* wordDescSectionHeadView.m */; };
 		1D03AA1A1E097AA7000BED20 /* wordAuthorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D03AA191E097AA7000BED20 /* wordAuthorCell.m */; };
+		1D03AA1D1E097AE4000BED20 /* wordsDetailHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D03AA1C1E097AE4000BED20 /* wordsDetailHeadView.m */; };
+		1D03AA1F1E097AF5000BED20 /* wordsDetailHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D03AA1E1E097AF5000BED20 /* wordsDetailHeadView.xib */; };
+		1D03AA221E097B0F000BED20 /* wordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D03AA211E097B0F000BED20 /* wordTableViewCell.m */; };
+		1D03AA241E097B25000BED20 /* wordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D03AA231E097B25000BED20 /* wordTableViewCell.xib */; };
+		1D03AA271E097DA4000BED20 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D03AA261E097DA4000BED20 /* UIImage+ImageEffects.m */; };
 		1D142DB51DFEEE0000854B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DB41DFEEE0000854B44 /* main.m */; };
 		1D142DB81DFEEE0000854B44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DB71DFEEE0000854B44 /* AppDelegate.m */; };
 		1D142DBB1DFEEE0000854B44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DBA1DFEEE0000854B44 /* ViewController.m */; };
@@ -303,6 +308,14 @@
 		1D03AA161E097A95000BED20 /* wordDescSectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordDescSectionHeadView.m; sourceTree = "<group>"; };
 		1D03AA181E097AA7000BED20 /* wordAuthorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordAuthorCell.h; sourceTree = "<group>"; };
 		1D03AA191E097AA7000BED20 /* wordAuthorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordAuthorCell.m; sourceTree = "<group>"; };
+		1D03AA1B1E097AE4000BED20 /* wordsDetailHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordsDetailHeadView.h; sourceTree = "<group>"; };
+		1D03AA1C1E097AE4000BED20 /* wordsDetailHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordsDetailHeadView.m; sourceTree = "<group>"; };
+		1D03AA1E1E097AF5000BED20 /* wordsDetailHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = wordsDetailHeadView.xib; sourceTree = "<group>"; };
+		1D03AA201E097B0F000BED20 /* wordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordTableViewCell.h; sourceTree = "<group>"; };
+		1D03AA211E097B0F000BED20 /* wordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordTableViewCell.m; sourceTree = "<group>"; };
+		1D03AA231E097B25000BED20 /* wordTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = wordTableViewCell.xib; sourceTree = "<group>"; };
+		1D03AA251E097DA4000BED20 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		1D03AA261E097DA4000BED20 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		1D142DB01DFEEE0000854B44 /* 快看漫画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "快看漫画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D142DB41DFEEE0000854B44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D142DB61DFEEE0000854B44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1072,6 +1085,12 @@
 				1D03AA161E097A95000BED20 /* wordDescSectionHeadView.m */,
 				1D03AA181E097AA7000BED20 /* wordAuthorCell.h */,
 				1D03AA191E097AA7000BED20 /* wordAuthorCell.m */,
+				1D03AA1B1E097AE4000BED20 /* wordsDetailHeadView.h */,
+				1D03AA1C1E097AE4000BED20 /* wordsDetailHeadView.m */,
+				1D03AA1E1E097AF5000BED20 /* wordsDetailHeadView.xib */,
+				1D03AA201E097B0F000BED20 /* wordTableViewCell.h */,
+				1D03AA211E097B0F000BED20 /* wordTableViewCell.m */,
+				1D03AA231E097B25000BED20 /* wordTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1340,6 +1359,8 @@
 				5B1957591E07B7C200768C22 /* UIImageView+Extension.m */,
 				5B19575B1E07B7EA00768C22 /* UIImage+Extension.h */,
 				5B19575C1E07B7EA00768C22 /* UIImage+Extension.m */,
+				1D03AA251E097DA4000BED20 /* UIImage+ImageEffects.h */,
+				1D03AA261E097DA4000BED20 /* UIImage+ImageEffects.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -2032,6 +2053,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D03AA241E097B25000BED20 /* wordTableViewCell.xib in Resources */,
 				5B1957291E07B59900768C22 /* AuthorInfoDetailHeadView.xib in Resources */,
 				5B4CA7F01DFFEF000006A8C2 /* README.mux in Resources */,
 				5B4CA7EF1DFFEF000006A8C2 /* README in Resources */,
@@ -2043,6 +2065,7 @@
 				5B1956F81E07AFEE00768C22 /* LoginViewController.xib in Resources */,
 				1D9A61401E003D7200F17717 /* CartoonSummaryCell.xib in Resources */,
 				5BA3E20A1E0944DE00CBD896 /* MyCollectionCell.xib in Resources */,
+				1D03AA1F1E097AF5000BED20 /* wordsDetailHeadView.xib in Resources */,
 				5B1957111E07B2F500768C22 /* SearchResultsCell.xib in Resources */,
 				5BC05BD21E040E66007394AE /* 快看漫画首页.plist in Resources */,
 				5BA3E1FB1E093AB800CBD896 /* MeiZhouPaiHangItem.xib in Resources */,
@@ -2270,6 +2293,7 @@
 				5B1957BE1E07BB9F00768C22 /* ZLPhotoPickerDatas.m in Sources */,
 				5BA3E2011E09449B00CBD896 /* CollectionComicModel.m in Sources */,
 				1D142DBB1DFEEE0000854B44 /* ViewController.m in Sources */,
+				1D03AA221E097B0F000BED20 /* wordTableViewCell.m in Sources */,
 				5B4CA83A1DFFEF000006A8C2 /* iterator.c in Sources */,
 				5B1957B81E07BB9F00768C22 /* ZLPhotoPickerBrowserViewController.m in Sources */,
 				5B4CA8151DFFEF000006A8C2 /* enc_sse2.c in Sources */,
@@ -2291,6 +2315,7 @@
 				5B4CA8341DFFEF000006A8C2 /* config.c in Sources */,
 				5B4CA8821DFFF17E0006A8C2 /* BaseTableViewController.m in Sources */,
 				5B4CA80D1DFFEF000006A8C2 /* dec_neon.c in Sources */,
+				1D03AA271E097DA4000BED20 /* UIImage+ImageEffects.m in Sources */,
 				5B1957321E07B61E00768C22 /* AuthorProfileView.m in Sources */,
 				1D142DB81DFEEE0000854B44 /* AppDelegate.m in Sources */,
 				5B4CA8631DFFEF330006A8C2 /* UITableView+FDIndexPathHeightCache.m in Sources */,
@@ -2320,6 +2345,7 @@
 				1D5FEEC11E018E4F00C81337 /* updateCartoonListView.m in Sources */,
 				5B1957281E07B59900768C22 /* AuthorInfoDetailHeadView.m in Sources */,
 				5B4CA8181DFFEF000006A8C2 /* filters_mips_dsp_r2.c in Sources */,
+				1D03AA1D1E097AE4000BED20 /* wordsDetailHeadView.m in Sources */,
 				5B4CA8481DFFEF000006A8C2 /* muxedit.c in Sources */,
 				5B4CA7F81DFFEF000006A8C2 /* vp8.c in Sources */,
 				5B4CA74D1DFFECE00006A8C2 /* MyMessageViewController.m in Sources */,

@@ -10,4 +10,11 @@
 
 @interface wordDescSectionHeadView : UIView
 
+@property (nonatomic,copy) NSString *desc;
+
+@property (nonatomic,copy) void (^needReloadHeight)();
+
+
+- (CGFloat)myHeight;
+
 @end

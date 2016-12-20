@@ -1,5 +1,5 @@
 //
-//  wordsSequenceView.h
+//  wordTableViewCell.h
 //  快看漫画
 //
 //  Created by 金亮齐 on 2016/12/20.
@@ -8,14 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+#import "CartonnWordsModel.h"
 #import "PrefixHeader.pch"
 
-#define wordsSequenceViewHeight 40
+#define wordTableViewCellHeight 100
 
-@interface wordsSequenceView : UIView
+@interface wordTableViewCell : UITableViewCell
 
-//选中状态为正序,反之倒序
-
-@property (nonatomic,weak,readonly) UIButton *sortBtn;
+@property (nonatomic,strong) CartonnWordsModel *model;
 
 @end
