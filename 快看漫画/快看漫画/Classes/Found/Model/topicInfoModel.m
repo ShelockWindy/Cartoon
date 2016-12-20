@@ -7,7 +7,18 @@
 //
 
 #import "topicInfoModel.h"
+#import "bannersModel.h"
 
 @implementation topicInfoModel
+
++ (NSArray<NSString *> *)setupDataFieldsIsModelArray:(BOOL *)isModelArray {
+    *isModelArray = YES;
+    return @[@"data",@"infos"];
+}
+
++ (NSDictionary *)mj_objectClassInArray {
+    return @{@"topics" : [topicModel class],
+             @"banners": [bannersModel class]};
+}
 
 @end

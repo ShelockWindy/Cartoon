@@ -9,5 +9,10 @@
 #import "bannerModel.h"
 
 @implementation bannerModel
++ (NSArray<NSString *> *)setupDataFieldsIsModelArray:(BOOL *)isModelArray {
+    *isModelArray = YES;
+    return @[@"data",@"banner_group"];
+}
+
 
 @end

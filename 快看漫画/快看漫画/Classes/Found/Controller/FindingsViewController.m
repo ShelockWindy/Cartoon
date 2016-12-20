@@ -316,7 +316,7 @@ static NSString * const GuanFangHuoDongCellIdentifier   = @"GuanFangHuoDongCell"
     
     bannerModel *md = [self.bannerModelArray objectAtIndex:index];
     
-    CartoonDetailViewController *cdv = [[CartoonDetailViewController alloc] init];
+    DetailViewController *cdv = [[DetailViewController alloc] init];
     
     cdv.cartoonId = [NSNumber numberWithInteger:md.value.integerValue];
     

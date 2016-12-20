@@ -10,4 +10,6 @@
 
 @interface RenQiBiaoShengCell : UITableViewCell
 
+@property (nonatomic,copy) NSArray *topics;
+
 @end

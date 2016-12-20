@@ -10,4 +10,9 @@
 
 @interface FindHeaderSectionView : UIView
 
+
+@property (nonatomic,copy) NSString *title;
+
+@property (nonatomic,copy) void (^moreOnClick)();
+
 @end

@@ -10,4 +10,12 @@
 
 @interface bannerModel : BaseModel
 
+@property (nonatomic,copy) NSString *pic;
+
+@property (nonatomic,copy) NSString *title;
+
+@property (nonatomic,strong) NSNumber *type;
+
+@property (nonatomic,copy) NSString *value;
+
 @end

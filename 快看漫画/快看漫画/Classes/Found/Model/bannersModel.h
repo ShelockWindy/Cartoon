@@ -10,4 +10,14 @@
 
 @interface bannersModel : BaseModel
 
+@property (nonatomic,strong) NSNumber *ID;
+
+@property (nonatomic,strong) NSNumber *target_id;
+
+@property (nonatomic,copy) NSString *pic;
+
+@property (nonatomic,copy) NSString *target_title;
+
+@property (nonatomic,strong) NSNumber *type;
+
 @end
