@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1C88C6D47F6BAEEBFEC51963 /* libPods-快看漫画.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F52C35FF969E4E51D5E9188 /* libPods-快看漫画.a */; };
+		1D03AA0E1E09795A000BED20 /* wordsDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D03AA0D1E09795A000BED20 /* wordsDetailModel.m */; };
+		1D03AA111E09796D000BED20 /* CartonnWordsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D03AA101E09796D000BED20 /* CartonnWordsModel.m */; };
+		1D03AA141E097A88000BED20 /* wordsSequenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D03AA131E097A88000BED20 /* wordsSequenceView.m */; };
+		1D03AA171E097A95000BED20 /* wordDescSectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D03AA161E097A95000BED20 /* wordDescSectionHeadView.m */; };
+		1D03AA1A1E097AA7000BED20 /* wordAuthorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D03AA191E097AA7000BED20 /* wordAuthorCell.m */; };
 		1D142DB51DFEEE0000854B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DB41DFEEE0000854B44 /* main.m */; };
 		1D142DB81DFEEE0000854B44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DB71DFEEE0000854B44 /* AppDelegate.m */; };
 		1D142DBB1DFEEE0000854B44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D142DBA1DFEEE0000854B44 /* ViewController.m */; };
@@ -288,6 +293,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D03AA0C1E09795A000BED20 /* wordsDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordsDetailModel.h; sourceTree = "<group>"; };
+		1D03AA0D1E09795A000BED20 /* wordsDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordsDetailModel.m; sourceTree = "<group>"; };
+		1D03AA0F1E09796D000BED20 /* CartonnWordsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartonnWordsModel.h; sourceTree = "<group>"; };
+		1D03AA101E09796D000BED20 /* CartonnWordsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartonnWordsModel.m; sourceTree = "<group>"; };
+		1D03AA121E097A88000BED20 /* wordsSequenceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordsSequenceView.h; sourceTree = "<group>"; };
+		1D03AA131E097A88000BED20 /* wordsSequenceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordsSequenceView.m; sourceTree = "<group>"; };
+		1D03AA151E097A95000BED20 /* wordDescSectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordDescSectionHeadView.h; sourceTree = "<group>"; };
+		1D03AA161E097A95000BED20 /* wordDescSectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordDescSectionHeadView.m; sourceTree = "<group>"; };
+		1D03AA181E097AA7000BED20 /* wordAuthorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordAuthorCell.h; sourceTree = "<group>"; };
+		1D03AA191E097AA7000BED20 /* wordAuthorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordAuthorCell.m; sourceTree = "<group>"; };
 		1D142DB01DFEEE0000854B44 /* 快看漫画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "快看漫画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D142DB41DFEEE0000854B44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D142DB61DFEEE0000854B44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -757,6 +772,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D03AA0B1E097940000BED20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D03AA0C1E09795A000BED20 /* wordsDetailModel.h */,
+				1D03AA0D1E09795A000BED20 /* wordsDetailModel.m */,
+				1D03AA0F1E09796D000BED20 /* CartonnWordsModel.h */,
+				1D03AA101E09796D000BED20 /* CartonnWordsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		1D142DA71DFEEE0000854B44 = {
 			isa = PBXGroup;
 			children = (
@@ -1019,8 +1045,8 @@
 		5B19571B1E07B3D300768C22 /* WorksDetail(作品详情) */ = {
 			isa = PBXGroup;
 			children = (
+				1D03AA0B1E097940000BED20 /* Model */,
 				5B19571C1E07B3D300768C22 /* Controller */,
-				5B19571D1E07B3D300768C22 /* Model */,
 				5B19571E1E07B3D300768C22 /* View */,
 			);
 			path = "WorksDetail(作品详情)";
@@ -1035,18 +1061,17 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		5B19571D1E07B3D300768C22 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		5B19571E1E07B3D300768C22 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				5B1957551E07B78B00768C22 /* wordsOptionsHeadView.h */,
 				5B1957561E07B78B00768C22 /* wordsOptionsHeadView.m */,
+				1D03AA121E097A88000BED20 /* wordsSequenceView.h */,
+				1D03AA131E097A88000BED20 /* wordsSequenceView.m */,
+				1D03AA151E097A95000BED20 /* wordDescSectionHeadView.h */,
+				1D03AA161E097A95000BED20 /* wordDescSectionHeadView.m */,
+				1D03AA181E097AA7000BED20 /* wordAuthorCell.h */,
+				1D03AA191E097AA7000BED20 /* wordAuthorCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2108,6 +2133,8 @@
 				1D9A61271E003B1C00F17717 /* navBarTitleView.m in Sources */,
 				5B1957571E07B78B00768C22 /* wordsOptionsHeadView.m in Sources */,
 				1D5FEED71E01910A00C81337 /* likeCountView.m in Sources */,
+				1D03AA0E1E09795A000BED20 /* wordsDetailModel.m in Sources */,
+				1D03AA141E097A88000BED20 /* wordsSequenceView.m in Sources */,
 				5B4CA8311DFFEF000006A8C2 /* alpha.c in Sources */,
 				5B1957C11E07BB9F00768C22 /* ZLNavigationController.m in Sources */,
 				5B4CA7F41DFFEF000006A8C2 /* idec.c in Sources */,
@@ -2116,6 +2143,7 @@
 				1D9A612D1E003BA000F17717 /* updateCartoonView.m in Sources */,
 				5B4CA72B1DFFD1730006A8C2 /* FindingsViewController.m in Sources */,
 				1D5FEED01E01908300C81337 /* userModel.m in Sources */,
+				1D03AA1A1E097AA7000BED20 /* wordAuthorCell.m in Sources */,
 				5B1957BF1E07BB9F00768C22 /* ZLPhotoPickerGroup.m in Sources */,
 				5BA3E1D51E0939AE00CBD896 /* DCPicScrollView.m in Sources */,
 				5B4CA7341DFFD54E0006A8C2 /* UserInfoManager.m in Sources */,
@@ -2138,6 +2166,7 @@
 				5B4CA82C1DFFEF000006A8C2 /* upsampling_sse2.c in Sources */,
 				5B4CA84D1DFFEF000006A8C2 /* color_cache.c in Sources */,
 				5B4CA84B1DFFEF000006A8C2 /* bit_reader.c in Sources */,
+				1D03AA171E097A95000BED20 /* wordDescSectionHeadView.m in Sources */,
 				1D9A61241E0039A200F17717 /* DateManager.m in Sources */,
 				5B4CA80B1DFFEF000006A8C2 /* dec_mips32.c in Sources */,
 				5B4CA7F31DFFEF000006A8C2 /* frame.c in Sources */,
@@ -2227,6 +2256,7 @@
 				5B1957701E07BA5200768C22 /* FeedsTableView.m in Sources */,
 				5B4CA8531DFFEF000006A8C2 /* random.c in Sources */,
 				1D9A611E1E00383700F17717 /* registerViewController.m in Sources */,
+				1D03AA111E09796D000BED20 /* CartonnWordsModel.m in Sources */,
 				5B1957D41E07BC8400768C22 /* CommentDetailModel.m in Sources */,
 				5B4CA8471DFFEF000006A8C2 /* anim_encode.c in Sources */,
 				5BA3E1DB1E0939DD00CBD896 /* DCPicItemConfiguration.m in Sources */,
