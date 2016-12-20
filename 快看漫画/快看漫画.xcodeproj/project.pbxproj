@@ -256,6 +256,12 @@
 		5BA3E1F61E093A9F00CBD896 /* topicInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E1F51E093A9F00CBD896 /* topicInfoView.m */; };
 		5BA3E1F91E093AAD00CBD896 /* MeiZhouPaiHangItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E1F81E093AAD00CBD896 /* MeiZhouPaiHangItem.m */; };
 		5BA3E1FB1E093AB800CBD896 /* MeiZhouPaiHangItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3E1FA1E093AB800CBD896 /* MeiZhouPaiHangItem.xib */; };
+		5BA3E1FE1E09448D00CBD896 /* FellowTopicsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E1FD1E09448D00CBD896 /* FellowTopicsModel.m */; };
+		5BA3E2011E09449B00CBD896 /* CollectionComicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E2001E09449B00CBD896 /* CollectionComicModel.m */; };
+		5BA3E2041E0944B900CBD896 /* MyFellowWordsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E2031E0944B900CBD896 /* MyFellowWordsCell.m */; };
+		5BA3E2071E0944C500CBD896 /* MyCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E2061E0944C500CBD896 /* MyCollectionCell.m */; };
+		5BA3E20A1E0944DE00CBD896 /* MyCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3E2081E0944DE00CBD896 /* MyCollectionCell.xib */; };
+		5BA3E20B1E0944DE00CBD896 /* MyFellowWordsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3E2091E0944DE00CBD896 /* MyFellowWordsCell.xib */; };
 		5BC05BD21E040E66007394AE /* 快看漫画首页.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BC05BD11E040E66007394AE /* 快看漫画首页.plist */; };
 /* End PBXBuildFile section */
 
@@ -695,6 +701,16 @@
 		5BA3E1F71E093AAD00CBD896 /* MeiZhouPaiHangItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeiZhouPaiHangItem.h; sourceTree = "<group>"; };
 		5BA3E1F81E093AAD00CBD896 /* MeiZhouPaiHangItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeiZhouPaiHangItem.m; sourceTree = "<group>"; };
 		5BA3E1FA1E093AB800CBD896 /* MeiZhouPaiHangItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeiZhouPaiHangItem.xib; sourceTree = "<group>"; };
+		5BA3E1FC1E09448D00CBD896 /* FellowTopicsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FellowTopicsModel.h; sourceTree = "<group>"; };
+		5BA3E1FD1E09448D00CBD896 /* FellowTopicsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FellowTopicsModel.m; sourceTree = "<group>"; };
+		5BA3E1FF1E09449B00CBD896 /* CollectionComicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionComicModel.h; sourceTree = "<group>"; };
+		5BA3E2001E09449B00CBD896 /* CollectionComicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionComicModel.m; sourceTree = "<group>"; };
+		5BA3E2021E0944B900CBD896 /* MyFellowWordsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFellowWordsCell.h; sourceTree = "<group>"; };
+		5BA3E2031E0944B900CBD896 /* MyFellowWordsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFellowWordsCell.m; sourceTree = "<group>"; };
+		5BA3E2051E0944C500CBD896 /* MyCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionCell.h; sourceTree = "<group>"; };
+		5BA3E2061E0944C500CBD896 /* MyCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionCell.m; sourceTree = "<group>"; };
+		5BA3E2081E0944DE00CBD896 /* MyCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionCell.xib; sourceTree = "<group>"; };
+		5BA3E2091E0944DE00CBD896 /* MyFellowWordsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyFellowWordsCell.xib; sourceTree = "<group>"; };
 		5BC05BD11E040E66007394AE /* 快看漫画首页.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "快看漫画首页.plist"; sourceTree = "<group>"; };
 		5FF7DC4C0FE3CCE023E50BAD /* Pods-快看漫画.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快看漫画.release.xcconfig"; path = "Pods/Target Support Files/Pods-快看漫画/Pods-快看漫画.release.xcconfig"; sourceTree = "<group>"; };
 		7F52C35FF969E4E51D5E9188 /* libPods-快看漫画.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-快看漫画.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1829,6 +1845,10 @@
 			children = (
 				5B1956EB1E07ACB300768C22 /* ReplyDataModel.h */,
 				5B1956EC1E07ACB300768C22 /* ReplyDataModel.m */,
+				5BA3E1FC1E09448D00CBD896 /* FellowTopicsModel.h */,
+				5BA3E1FD1E09448D00CBD896 /* FellowTopicsModel.m */,
+				5BA3E1FF1E09449B00CBD896 /* CollectionComicModel.h */,
+				5BA3E2001E09449B00CBD896 /* CollectionComicModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1836,9 +1856,15 @@
 		5B7FE28E1DFF9379004A7C0E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5BA3E2081E0944DE00CBD896 /* MyCollectionCell.xib */,
+				5BA3E2091E0944DE00CBD896 /* MyFellowWordsCell.xib */,
 				5B1956E61E07AC3800768C22 /* MyMessageCell.h */,
 				5B1956E71E07AC3800768C22 /* MyMessageCell.m */,
 				5B1956E81E07AC3800768C22 /* MyMessageCell.xib */,
+				5BA3E2021E0944B900CBD896 /* MyFellowWordsCell.h */,
+				5BA3E2031E0944B900CBD896 /* MyFellowWordsCell.m */,
+				5BA3E2051E0944C500CBD896 /* MyCollectionCell.h */,
+				5BA3E2061E0944C500CBD896 /* MyCollectionCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1962,11 +1988,13 @@
 				5B4CA7F01DFFEF000006A8C2 /* README.mux in Resources */,
 				5B4CA7EF1DFFEF000006A8C2 /* README in Resources */,
 				5B1957CC1E07BB9F00768C22 /* ZLPhotoLib.bundle in Resources */,
+				5BA3E20B1E0944DE00CBD896 /* MyFellowWordsCell.xib in Resources */,
 				5B4CA8671DFFEF330006A8C2 /* LICENSE in Resources */,
 				5B1956EA1E07AC3800768C22 /* MyMessageCell.xib in Resources */,
 				5B1956F61E07AE0800768C22 /* CommentSendView.xib in Resources */,
 				5B1956F81E07AFEE00768C22 /* LoginViewController.xib in Resources */,
 				1D9A61401E003D7200F17717 /* CartoonSummaryCell.xib in Resources */,
+				5BA3E20A1E0944DE00CBD896 /* MyCollectionCell.xib in Resources */,
 				5B1957111E07B2F500768C22 /* SearchResultsCell.xib in Resources */,
 				5BC05BD21E040E66007394AE /* 快看漫画首页.plist in Resources */,
 				5BA3E1FB1E093AB800CBD896 /* MeiZhouPaiHangItem.xib in Resources */,
@@ -2060,6 +2088,7 @@
 				5B1957C11E07BB9F00768C22 /* ZLNavigationController.m in Sources */,
 				5B4CA7F41DFFEF000006A8C2 /* idec.c in Sources */,
 				5B4CA8401DFFEF000006A8C2 /* picture_tools.c in Sources */,
+				5BA3E2071E0944C500CBD896 /* MyCollectionCell.m in Sources */,
 				1D9A612D1E003BA000F17717 /* updateCartoonView.m in Sources */,
 				5B4CA72B1DFFD1730006A8C2 /* FindingsViewController.m in Sources */,
 				1D5FEED01E01908300C81337 /* userModel.m in Sources */,
@@ -2080,6 +2109,7 @@
 				5BA3E1E71E093A6900CBD896 /* RenQiBiaoShengCell.m in Sources */,
 				5B19576A1E07BA2000768C22 /* AuthorStatusDetailViewController.m in Sources */,
 				5B4CA8111DFFEF000006A8C2 /* enc_avx2.c in Sources */,
+				5BA3E2041E0944B900CBD896 /* MyFellowWordsCell.m in Sources */,
 				5B19570A1E07B29900768C22 /* CustomSearchBar.m in Sources */,
 				5B4CA82C1DFFEF000006A8C2 /* upsampling_sse2.c in Sources */,
 				5B4CA84D1DFFEF000006A8C2 /* color_cache.c in Sources */,
@@ -2106,6 +2136,7 @@
 				5B1957C21E07BB9F00768C22 /* ZLPhotoPickerAssetsViewController.m in Sources */,
 				5BA3E1ED1E093A7E00CBD896 /* XinZuoCell.m in Sources */,
 				5B4CA7FA1DFFEF000006A8C2 /* webp.c in Sources */,
+				5BA3E1FE1E09448D00CBD896 /* FellowTopicsModel.m in Sources */,
 				5B4CA8381DFFEF000006A8C2 /* frame.c in Sources */,
 				5B4CA81C1DFFEF000006A8C2 /* lossless_enc_mips32.c in Sources */,
 				5B19572C1E07B60600768C22 /* AuthorTopicInfoCell.m in Sources */,
@@ -2180,6 +2211,7 @@
 				5B4CA8031DFFEF000006A8C2 /* argb_sse2.c in Sources */,
 				5B19572F1E07B61100768C22 /* AuthorShareInfoCell.m in Sources */,
 				5B1957BE1E07BB9F00768C22 /* ZLPhotoPickerDatas.m in Sources */,
+				5BA3E2011E09449B00CBD896 /* CollectionComicModel.m in Sources */,
 				1D142DBB1DFEEE0000854B44 /* ViewController.m in Sources */,
 				5B4CA83A1DFFEF000006A8C2 /* iterator.c in Sources */,
 				5B1957B81E07BB9F00768C22 /* ZLPhotoPickerBrowserViewController.m in Sources */,
