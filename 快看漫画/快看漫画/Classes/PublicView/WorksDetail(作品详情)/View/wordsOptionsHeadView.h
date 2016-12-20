@@ -7,10 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PrefixHeader.pch"
 
 #define wordsOptionsHeadViewHeight 40
 
-
 @interface wordsOptionsHeadView : UIView
+
+@property (nonatomic,weak,readonly) UIButton *leftBtn;
+
+@property (nonatomic,weak,readonly) UIButton *rightBtn;
+
+@property (nonatomic,copy) void (^lefeBtnClick)(UIButton *btn);
+
+@property (nonatomic,copy) void (^rightBtnClick)(UIButton *btn);
 
 @end
