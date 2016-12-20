@@ -8,6 +8,14 @@
 
 #import "comicsModel.h"
 
+#import "NetWorkManager.h"
+#import "NSString+Extension.h"
+
+
 @implementation comicsModel
+
++ (NSArray<NSString *> *)setupDataFieldsIsModelArray:(BOOL *)isModelArray {
+    return @[@"data"];
+}
 
 @end

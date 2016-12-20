@@ -10,4 +10,6 @@
 
 @interface CartoonContentCell : UITableViewCell
 
+@property (nonatomic,strong,readonly) UIImageView *content;
+
 @end
